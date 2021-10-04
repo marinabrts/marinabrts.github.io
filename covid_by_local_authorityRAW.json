@@ -19,7 +19,7 @@
         
         {"filter": {
           "field": "areaName", 
-          "oneOf": ["Westminster", "Surrey Heath", "Hounslow"]}
+          "oneOf": ["East Dunbartonshire", "Bristol", "Worthing"]}
           }
   
   
@@ -51,7 +51,7 @@
         "field": "areaName",
         "type": "nominal",
         "scale": {"scheme": "set1"},
-        "title": ,
+        "title": null,
         "legend": {
           "orient": "top-left", 
           "fillColor": "#FcFdFd"}
