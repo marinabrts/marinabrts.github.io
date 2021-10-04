@@ -51,7 +51,7 @@
         "field": "areaName",
         "type": "nominal",
         "scale": {"scheme": "set1"},
-        "title": null,
+        "title": ,
         "legend": {
           "orient": "top-left", 
           "fillColor": "#FcFdFd"}
