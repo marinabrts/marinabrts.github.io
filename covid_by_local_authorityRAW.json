@@ -19,7 +19,7 @@
         
         {"filter": {
           "field": "areaName", 
-          "oneOf": ["East Dunbartonshire", "Bristol", "Worthing"]}
+          "oneOf": ["East Dunbartonshire", "Bristol, City of", "Worthing"]}
           }
   
   
