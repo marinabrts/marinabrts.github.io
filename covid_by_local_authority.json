@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     
     "title": {
-      "text": "COVID CASES IN THE UK",
+      "text": "Covid Cases in the UK",
       "subtitle":"by local authority",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
@@ -27,7 +27,7 @@
     
     
     "height": 300,
-    "width": 310,
+    "width": 300,
      
     "mark": {"type": "line", "point": false},
    
@@ -51,7 +51,7 @@
         "field": "areaName",
         "type": "nominal",
         "scale": {"scheme": "set1"},
-        "title": "null",
+        "title": null,
         "legend": {
           "orient": "top-left", 
           "fillColor": "#FcFdFd"}
