@@ -17,15 +17,13 @@ h3{
     font-family: 'Montserrat', sans-serif;
 }
 
-p{font-family: 'Poppins', sans-serif;
-color: white;
+.center {
+  text-align: center;
 }
-
-
 
 .chart{
     width: 330px;
-    border-width: 10px;
+    border-width: 5px;
     background-color: white;
     border-style: solid;
     border-radius: 5px;
