@@ -29,12 +29,12 @@ p{
 
 .chart{
     width: 330px;
-    border-width: 5px;
+    border-width: 40px;
     background-color: white;
     border-style: solid;
     border-radius: 10px;
     border-color: white;
-    margin: 40px;
+    margin: 30px;
 
 
 }
