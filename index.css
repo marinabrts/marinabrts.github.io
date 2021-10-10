@@ -6,6 +6,10 @@ body{
     margin: auto;
 }
 
+.center {
+  text-align: center;
+}
+
 h1{
 
     color: rgb(255, 255, 255);
@@ -17,9 +21,11 @@ h3{
     font-family: 'Montserrat', sans-serif;
 }
 
-.center {
-  text-align: center;
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
+
 
 .chart{
     width: 330px;
@@ -28,7 +34,7 @@ h3{
     border-style: solid;
     border-radius: 10px;
     border-color: white;
-    margin: 80px;
+    margin: 40px;
 
 
 }
