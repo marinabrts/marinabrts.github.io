@@ -1,0 +1,8 @@
+<script>
+data = [
+    {"date": 1971-01-01, "value": 42.6}, {"date": 1971-04-01, "value": 43.4},
+    {"date": 1971-07-01, "value": 44.2}, {"date": 1971-10-01, "value": 44.5}, 
+    {"date": 1972-01-01, "value": 44.1}
+]
+console.log(data)
+</script>
