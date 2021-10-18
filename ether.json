@@ -4,7 +4,7 @@
   "description": "Etherium Price",
 
    "title": {
-    "text": "Ether: this year",
+    "text": "Ether: winter 2021",
     "subtitle":"High-low trading range, 12h-time periods. Source: coinapi.io",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
