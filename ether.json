@@ -23,7 +23,7 @@
   "mark": {
     "type": "area",
     "point": false,
-    "color":"#f4c245"
+    "color":"FF007F"
   },
 
   
@@ -41,7 +41,7 @@
       "field": "price_low",
       "type": "quantitative",
       "title": "",
-      "scale":{"domain":[0, 5000]},
+      "scale":{"domain":[0, 3000]},
       "axis": {
         "grid": false}},
 
