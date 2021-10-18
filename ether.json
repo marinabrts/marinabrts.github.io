@@ -41,10 +41,9 @@
       "field": "price_low",
       "type": "quantitative",
       "title": "",
-      "scale":{"domain":[30000, 60000]},
+      "scale":{"domain":[0, 5000]},
       "axis": {
-        "grid": false,
-        "format":"$.2s"}},
+        "grid": false}},
 
     "y2": {"field": "price_high"}       
   }
