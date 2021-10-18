@@ -1,11 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
 
-  "description": "Productivity UK",
+  "description": "Random",
 
    "title": {
-    "text": "UK productivity, 1971-2021",
-    "subtitle":"Labour productivity. Output per hour worked, 2018==100. Source: ONS",
+    "text": "Random Values",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
@@ -13,7 +12,7 @@
   },
   
   "data": {
-    "value": "HWweek3.json"},
+    "values": "HWweek3.json"},
   "height": 300,
   "width": 345,
   "mark": {
@@ -24,7 +23,7 @@
   },
   "encoding": {
     "x": {
-      "field": "Date",
+      "field": "date",
       "type": "temporal",
       "axis": {
         "title": null,
@@ -34,7 +33,7 @@
       }
     },
     "y": {
-      "field": "Value",
+      "field": "value",
       "type": "quantitative",
       "title": "",
       "axis": {"grid": false}
