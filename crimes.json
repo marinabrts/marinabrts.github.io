@@ -24,7 +24,7 @@
       
     "mark": {
       "type": "arc", 
-      "innerRadius": 60},
+      "innerRadius": 55},
          
     "encoding": {
       
