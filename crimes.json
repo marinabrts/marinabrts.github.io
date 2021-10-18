@@ -19,12 +19,12 @@
       {"calculate":"1", "as":"crime"}
     ],
   
-    "width":250,
+    "width":240,
     "height":300,
       
     "mark": {
       "type": "arc", 
-      "innerRadius": 80},
+      "innerRadius": 60},
          
     "encoding": {
       
