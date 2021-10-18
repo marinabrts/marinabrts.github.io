@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+
+  "description": "Random values",
+
+   "title": {
+    "text": "Random observations",
+    "subtitle":"JS array",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+  
+  "data": {
+    "values":[
+    {"date": "1971-01-01", "value": 20}, {"date": "1971-04-01", "value": 30},
+    {"date": "1971-07-01", "value": 44}, {"date": "1971-10-01", "value": 50}, 
+    {"date": "1972-01-01", "value": 55}
+]},
+  "height": 300,
+  "width": 345,
+  "mark": {
+    "type": "line",
+    "point": true,
+    "interpolate": "monotone",
+    "color": "blueviolet"
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "axis": {
+        "title": null,
+        "grid": true,
+        "labelSeparation": 14,
+        "ticks": false
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "",
+      "axis": {"grid": false}
+    }
+  }
+}
