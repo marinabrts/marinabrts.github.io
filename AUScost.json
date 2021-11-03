@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
 
-  "description": "US Debt-to-GDP Ratio",
+  "description": "Cost of opening a business in Australi",
 
    "title": {
     "text": "Cost of opening a business in Australia",
