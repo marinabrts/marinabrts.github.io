@@ -14,7 +14,8 @@
   
   "data": {
     "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/FRED_data_GFDEGDQ188S.json",
-"format": {"type": "json"}
+"format": {
+  "property": "observations"}
     },
 
   "height": 300,
