@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+
+  "description": "Long-Term Government Bond Yield for Germany",
+
+   "title": {
+    "text": "Long-Term Government Bond Yield for Germany",
+    "subtitle":"Source: FRED",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/FRED_data_IRLTLT01DEM156N.json",
+"format": {
+  "property": "observations"}
+    },
+
+  "height": 300,
+  "width": 345,
+  "mark": {
+    "type": "line",
+    "point": false,
+    "interpolate": "monotone",
+    "color": "#3333FF"
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "axis": {
+        "title": null,
+        "labelSeparation": 20,
+        "ticks": false,
+        "grid": true
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "",
+      "axis": {"grid": true}
+    }
+  }
+}
