@@ -21,7 +21,7 @@
   "height": 300,
   "width": 345,
   "mark": {
-    "type": "line",
+    "type": "area",
     "point": false,
     "interpolate": "monotone",
     "color": "green"
