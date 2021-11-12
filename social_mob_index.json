@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "Social Mobility Index Around the World",
+  "title": {
+    "text": "Social Mobility Index Around the World",
+    "subtitle": "Source: World Economic Forum",
+    "subtitleFontStyle":"italic"
+  },
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/social_mob_index.csv",
+    "format": {"type": "csv"}
+  },
+
+"transform":[
+        
+        {"filter": {
+          "field": "Countries", 
+          "oneOf": ["Canada", "Russian Federation", "United States",
+          "China","Brazil","Australia","Israel","Venezuela","Egypt",
+          "South Africa","Denmark","United Kingdom","Germany",
+          "Estonia","Spain","India","Indonezia","Thailand",
+          "Kazakhstan","Côte d’Ivoire","Singapore"]}
+          }
+      ],
+
+"mark": {"type": "bar", "color": "#FF66B2"
+},
+  "encoding": {
+  "x": {
+      "field": "Countries", 
+      "type": "nominal", 
+      "title": "", 
+      "axis": {"labelAngle": 270}, 
+      "sort": {"field":["Index Score"], "order": [ "ascending"]}},
+
+  "y": {"field": "Index Score",
+    "type": "quantitative",
+    "scale":{"domain":[0, 90]}
+    }
+  }
+  
+}
