@@ -50,7 +50,7 @@ p{
   outline: 0;
   border: 1px solid black;
   cursor: pointer;
-  position: center;
+  position: relative;
   background-color: rgba(0, 0, 0, 0);
   user-select: none;
   -webkit-user-select: none;
@@ -80,6 +80,11 @@ p{
   }
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .chart{
     width: 400px;
