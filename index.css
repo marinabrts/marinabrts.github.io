@@ -43,7 +43,6 @@ p{
 
 
 .button-52 {
-  align-items: center;
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -81,6 +80,11 @@ p{
   }
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 .chart{
