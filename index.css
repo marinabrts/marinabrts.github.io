@@ -12,18 +12,19 @@ footer{
 }
 
 h1{
-    font-size: 120px;
-    font-family: 'Alfa Slab One', cursive;
+    font-size: 90px; 
+    font-weight: bold;
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: bold;
-    text-align: center;
-    letter-spacing: -1px;
 }
 
 h2{
-    font-size: 55px;
+    font-size: 30px;
     color: black;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Zilla Slab', serif;
     text-align: center;
 }
 
