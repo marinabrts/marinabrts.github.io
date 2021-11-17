@@ -50,7 +50,7 @@ p{
   outline: 0;
   border: 1px solid black;
   cursor: pointer;
-  position: relative;
+  position: center;
   background-color: rgba(0, 0, 0, 0);
   user-select: none;
   -webkit-user-select: none;
