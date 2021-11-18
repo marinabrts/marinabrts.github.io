@@ -23,13 +23,14 @@ h1{
 
 h2{
     font-size: 30px;
-    color: black;
-    font-family: 'Zilla Slab', serif;
+    color: white;
+    font-family: 'Satisfy', cursive;
     text-align: center;
 }
 
 
 p{
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     color: white;
     text-align: center;
