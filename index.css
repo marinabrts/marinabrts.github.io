@@ -40,10 +40,6 @@ p{
     text-align: center;
 }
 
-.main-header {
-    background-color: #C8C4CA;
-    width: 100%;
-}
 
 .conference {
     font-size: 12px;
@@ -79,10 +75,9 @@ p{
     
 }
 
-.wrapper {
-    width: 80%;
-    min-width: 550px;
-    background-color: #FFEF51;
+.bodywrap0{
+    width: 100%;
+    background-color:#C8C4CA;
     margin: auto;
  }
     
