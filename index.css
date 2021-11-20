@@ -32,15 +32,14 @@ h3{
 p{
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: #FFFFFF;
     text-align: center;
-    text-decoration: underline overline;
 }
 
 .conference {
     font-size: 12px;
+    color: black;
     font-weight: lighter;
-    text-decoration: normal;
 }
 
 .text {
