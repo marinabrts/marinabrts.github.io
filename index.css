@@ -23,17 +23,21 @@ h1{
 
 h3{
     font-size: 30px;
-    color: white;
+    color: #FFFFFF;
     font-family: 'Satisfy', cursive;
     text-align: center;
 }
 
 
 p{
-    font-size: 25px;
+    font-size: 12px;
     font-family: 'Domine', serif;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
+}
+
+.text {
+      font-size: 25px;
 }
 
 .yellow {
