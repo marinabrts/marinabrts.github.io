@@ -22,15 +22,15 @@ h1{
 }
 
 h3{
-    font-size: 30px;
-    color: #FFFFFF;
-    font-family: 'Satisfy', cursive;
+    font-size: 15px;
+    color: black;
+    font-family: 'Domine', serif;
     text-align: center;
 }
 
 
 p{
-    font-size: 12px;
+    font-size: 15px;
     font-family: 'Domine', serif;
     color: #FFFFFF;
     text-align: center;
@@ -38,6 +38,13 @@ p{
 
 .text {
       font-size: 25px;
+}
+
+.name {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
 }
 
 .yellow {
