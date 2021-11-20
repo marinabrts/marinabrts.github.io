@@ -34,16 +34,19 @@ p{
     font-family: 'Montserrat', sans-serif;
     color: black;
     text-align: center;
+    text-decoration: underline overline;
 }
 
 .conference {
     font-size: 12px;
     font-weight: lighter;
+    text-decoration: normal;
 }
 
 .text {
     font-size: 25px;
     color:#FFFFFF;
+    text-decoration: normal;
 }
 
 .name {
