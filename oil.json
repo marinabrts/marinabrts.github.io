@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+   "title": {
+    "text": "Crude Oil Prices: Brent - Europe",
+    "subtitle":"Source: FRED",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start"},
+  
+   
+  "data": {
+      "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/DCOILBRENTEU.csv",
+      "format": {"type": "csv"}},
+  
+
+  "height": 300,
+  "width": 300,
+  
+
+  "mark": {
+    "type": "line",
+    "point": false,
+    "color":"#1ACAEE"
+  },
+
+  
+  "encoding": {
+    
+    "x": {
+      "field": "DATE",
+      "type": "temporal",
+      "axis": {
+        "title": null,
+        "grid": false,
+        "labelSeparation": 10}},
+
+    "y": {
+      "field": "DCOILBRENTEU",
+      "type": "quantitative",
+      "title": "Dollars per Barrel",
+      "axis": {
+        "grid": false}}     
+  }
+}
