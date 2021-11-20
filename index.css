@@ -36,6 +36,10 @@ p{
     text-align: center;
 }
 
+.conference {
+    font-size: 12px;
+    font-weight: lighter;
+}
 
 .text {
     font-size: 25px;
