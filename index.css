@@ -21,9 +21,9 @@ h1{
     font-weight: bold;
 }
 
-h2{
+h3{
     font-size: 30px;
-    color: black;
+    color: white;
     font-family: 'Satisfy', cursive;
     text-align: center;
 }
@@ -32,7 +32,7 @@ h2{
 p{
     font-size: 25px;
     font-family: 'Domine', serif;
-    color: black;
+    color: white;
     text-align: center;
 }
 
