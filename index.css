@@ -42,9 +42,7 @@ p{
 
 .main-header {
     background-color: #C8C4CA;
-    background-blend-mode: multiply;
-    background-size: cover;
-    padding-bottom: 80px;
+    width: 100%;
 }
 
 .conference {
