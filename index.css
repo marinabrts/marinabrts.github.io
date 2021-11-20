@@ -62,8 +62,8 @@ p{
     
 }
 
-.bodywrap2 {
-    width: 70%;
+.wrapper {
+    width: 150%;
     min-width:450px;
     background-color: #DDA15E;
     margin: auto;
