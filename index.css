@@ -1,7 +1,7 @@
 
 body{
 
-    background-color: #C8C4CA;
+    background-color: #A49FA6;
     max-width: 450px;
     margin: auto;
 }
@@ -49,7 +49,8 @@ p{
 
 .text {
     font-size: 25px;
-    color:#FFFFFF;
+    font-family: 'Abril Fatface', cursive;
+    color:#F9D625;
     text-decoration: normal;
 }
 
