@@ -1,0 +1,165 @@
+,Country,< $5.50,Continent
+0,Albania,33.8%,Europe
+1,Algeria,28.6%,Africa
+2,Angola,89.3%,Africa
+3,Argentina,14.0%,South America
+4,Armenia,44.0%,Asia
+5,Australia,0.7%,Oceania
+6,Austria,1.0%,Europe
+7,Azerbaijan,7.0%,Asia
+8,Bangladesh,44.0%,Asia
+9,Belarus[9],0.2%,Europe
+10,Belgium,0.3%,Europe
+11,Belize,51.0%,North America
+12,Benin,90.6%,Africa
+13,Bhutan,38.6%,Asia
+14,Bolivia,20.0%,South America
+15,Bosnia and Herzegovina,3.9%,Europe
+16,Botswana,59.0%,Africa
+17,Brazil,19.8%,South America
+18,Bulgaria,7.5%,Europe
+19,Burkina Faso,92.3%,Africa
+20,Burundi,96.8%,Africa
+21,Cameroon,71.0%,Africa
+22,Canada,0.7%,North America
+23,Cape Verde,40.8%,Africa
+24,Central African Republic,92.8%,Africa
+25,Chad,86.2%,Africa
+26,Chile,3.7%,South America
+27,China,24%,Asia
+28,Colombia,29.0%,South America
+29,Comoros,65.0%,Africa
+30,"Congo, Democratic Republic of the",97.7%,Africa
+31,"Congo, Republic of the",84.0%,Africa
+32,Costa Rica,10.9%,North America
+33,Croatia,2.0%,Europe
+34,Cyprus,0.1%,Europe
+35,Czech Republic,0.4%,Europe
+36,Denmark,0.2%,Europe
+37,Djibouti,70.6%,Africa
+38,Dominican Republic,12.0%,North America
+39,East Timor,94.0%,Asia
+40,Ecuador[10],25.4%,South America
+41,Egypt,73.0%,Africa
+42,El Salvador,22.0%,North America
+43,Estonia,1.0%,Europe
+44,Eswatini,72.0%,Africa
+45,Ethiopia,90.0%,Africa
+46,Fiji,36.0%,Oceania
+47,Finland,0.1%,Europe
+48,France,0.2%,Europe
+49,Gabon,32.2%,Africa
+50,"Gambia, The",72.5%,Africa
+51,Georgia,42.9%,Europe
+52,Germany,1.0%,Europe
+53,Ghana,55.0%,Africa
+54,Greece,3.0%,Europe
+55,Guatemala,48.8%,North America
+56,Guinea,93.0%,Africa
+57,Guinea-Bissau,94.0%,Africa
+58,Guyana,43.4%,South America
+59,Haiti,78.9%,North America
+60,Honduras,49.0%,North America
+61,Hungary,2.0%,Europe
+62,Iceland,0.2%,Europe
+63,India,60.1%,Asia
+64,Indonesia,42.0%,Asia
+65,Iran,14.0%,Asia
+66,Iraq,52.0%,Asia
+67,Ireland,0.7%,Europe
+68,Israel,2.7%,Asia
+69,Italy,3.1%,Europe
+70,Ivory Coast,83.0%,Africa
+71,Jamaica,29.7%,North America
+72,Japan,1.0%,Asia
+73,Jordan,18.1%,Asia
+74,Kazakhstan,5.0%,Asia
+75,Kenya,87.0%,Africa
+76,Kiribati,69.4%,Oceania
+77,"Korea, South",1.2%,Asia
+78,Kosovo,24.0%,Europe
+79,Kyrgyzstan,53.0%,Asia
+80,Laos,70.0%,Asia
+81,Latvia,3.0%,Europe
+82,Lebanon,1.9%,Asia
+83,Lesotho,73.0%,Africa
+84,Liberia,93.0%,Africa
+85,Lithuania,2.0%,Europe
+86,Luxembourg,0.5%,Europe
+87,Madagascar,98.0%,Africa
+88,Malawi,96.7%,Africa
+89,Malaysia,2.7%,Asia
+90,Maldives,4.0%,Asia
+91,Mali,94.9%,Africa
+92,Malta,0.2%,Europe
+93,Mauritania,58.8%,Africa
+94,Mauritius,12.7%,Africa
+95,Mexico,23.0%,North America
+96,Micronesia,69.1%,Oceania
+97,Moldova,13.3%,Europe
+98,Mongolia,27.0%,Asia
+99,Montenegro,16.0%,Europe
+100,Morocco,30.0%,Africa
+101,Mozambique,91.8%,Africa
+102,Myanmar,54.0%,Asia
+103,Namibia,51.0%,Africa
+104,Nepal[13],83.0%,Asia
+105,Netherlands,0.5%,Europe
+106,Nicaragua,34.8%,North America
+107,Niger,94.0%,Africa
+108,Nigeria,92.0%,Africa
+109,North Macedonia,18.0%,Europe
+110,Norway,0.5%,Europe
+111,Pakistan[14],76.0%,Asia
+112,Palestine,23.6%,Asia
+113,Panama,12.7%,North America
+114,Papua New Guinea,86.9%,Oceania
+115,Paraguay,15.0%,South America
+116,Peru,21.0%,South America
+117,Philippines,46.9%,Asia
+118,Poland,1.0%,Europe
+119,Portugal,1.8%,Europe
+120,Romania,11.0%,Europe
+121,Russia,3.7%,"Asia, Europe"
+122,Rwanda,91.6%,Africa
+123,Saint Lucia,20.3%,North America
+124,Samoa,33.9%,Oceania
+125,São Tomé and Príncipe,86.0%,Africa
+126,Senegal,88.1%,Africa
+127,Serbia,19.0%,Europe
+128,Seychelles,5.0%,Africa
+129,Sierra Leone,93.0%,Africa
+130,Slovakia,2.0%,Europe
+131,Slovenia,0.1%,Europe
+132,Solomon Islands,84.7%,Oceania
+133,South Africa,57.1%,Africa
+134,South Sudan,98.0%,Africa
+135,Spain,2.2%,Europe
+136,Sri Lanka,42.0%,Asia
+137,Sudan,79.0%,Africa
+138,Suriname,47%,South America
+139,Sweden,1.0%,Europe
+140,Switzerland,0.0%,Europe
+141,Syria,40.0%,Asia
+142,Tajikistan,51.0%,Asia
+143,Tanzania,92.0%,Africa
+144,Thailand,6.0%,Asia
+145,Togo,91.0%,Africa
+146,Tonga,27.5%,Asia
+147,Trinidad and Tobago,32.9%,South America
+148,Tunisia,18.3%,Africa
+149,Turkey,10.0%,"Asia, Europe"
+150,Turkmenistan,92.5%,Asia
+151,Tuvalu,46.7%,Oceania
+152,Uganda,87.8%,Africa
+153,Ukraine,3.0%,Europe
+154,United Kingdom,1.0%,Europe
+155,United States,1.7%,North America
+156,Uruguay,2.9%,South America
+157,Uzbekistan,11%,Asia
+158,Vanuatu,72.3%,Oceania
+159,Venezuela,33.0%,South America
+160,Vietnam,22.0%,Asia
+161,Yemen,81.6%,Asia
+162,Zambia,88.0%,Africa
+163,Zimbabwe,83.0%,Africa
