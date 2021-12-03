@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "xxx",
+
+
+   "data": {
+    "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/SocMobPov1.csv",
+    "format": {"type": "csv"}
+  },
+
+ "title": {
+    "text": "Poverty and Social Mobility Index around the World ",
+    "subtitle": "Poverty is measured as percentage of population living on below $5.50 a day (PPP); Source: World Bank, World Poverty Clock, World Economic Forum",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start"
+  },
+  
+ "height": 300,
+ "width": 300,
+  "mark": {"type": "circle", "size": 50},
+  "encoding": {
+    "y": {
+      "field": "Index Score",
+      "type": "quantitative",
+      "title": "Social mobility index score",
+      "scale":{"domain":[30, 100]}
+    },
+    "x": {
+      "field": "Poverty",
+      "type": "quantitative",
+      "title": "Proportion of population in poverty",
+      "scale":{"domain":[0, 100]} 
+    },
+    "color": {"field": "Continent", "type": "nominal", "title": "Continent:"},
+
+   "tooltip": [
+      {"field": "Country", "type": "nominal", "title": "Country"}
+      ]
+}}
