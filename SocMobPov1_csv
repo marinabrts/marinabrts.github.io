@@ -1,0 +1,74 @@
+Country,Continent,Index Score,Poverty
+Albania,Europe,55.6,33.8
+Argentina,South America,57.3,14.0
+Armenia,Asia,53.9,44.0
+Australia,Oceania,75.1,0.7
+Austria,Europe,80.1,1.0
+Bangladesh,Asia,40.2,44.0
+Belgium,Europe,80.1,0.3
+Brazil,South America,52.1,19.8
+Bulgaria,Europe,63.8,7.5
+Cameroon,Africa,36.0,71.0
+Canada,North America,76.1,0.7
+Chile,South America,60.3,3.7
+China,Asia,61.5,24.0
+Colombia,South America,50.3,29.0
+Costa Rica,North America,61.6,10.9
+Croatia,Europe,66.7,2.0
+Cyprus,Europe,69.4,0.1
+Czech Republic,Europe,74.7,0.4
+Denmark,Europe,85.2,0.2
+Egypt,Africa,44.8,73.0
+El Salvador,North America,47.4,22.0
+Estonia,Europe,73.5,1.0
+Finland,Europe,83.6,0.1
+France,Europe,76.7,0.2
+Georgia,Europe,55.6,42.9
+Germany,Europe,78.8,1.0
+Ghana,Africa,45.5,55.0
+Greece,Europe,59.8,3.0
+Guatemala,North America,43.5,48.8
+Honduras,North America,43.5,49.0
+Hungary,Europe,65.8,2.0
+Iceland,Europe,82.7,0.2
+India,Asia,42.7,60.1
+Indonesia,Asia,49.3,42.0
+Ireland,Europe,75.0,0.7
+Israel,Asia,68.1,2.7
+Italy,Europe,67.4,3.1
+Japan,Asia,76.1,1.0
+Kazakhstan,Asia,64.8,5.0
+Laos,Asia,43.8,70.0
+Latvia,Europe,69.0,3.0
+Lithuania,Europe,70.5,2.0
+Luxembourg,Europe,79.8,0.5
+Malaysia,Asia,62.0,2.7
+Malta,Europe,75.0,0.2
+Mexico,North America,52.6,23.0
+Moldova,Europe,59.6,13.3
+Morocco,Africa,43.7,30.0
+Netherlands,Europe,82.4,0.5
+Norway,Europe,83.6,0.5
+Panama,North America,51.4,12.7
+Paraguay,South America,46.8,15.0
+Peru,South America,49.9,21.0
+Philippines,Asia,51.7,46.9
+Poland,Europe,69.1,1.0
+Portugal,Europe,72.0,1.8
+Romania,Europe,63.1,11.0
+Senegal,Africa,36.0,88.1
+Serbia,Europe,63.8,19.0
+Slovenia,Europe,76.4,0.1
+South Africa,Africa,41.4,57.1
+Spain,Europe,70.0,2.2
+Sri Lanka,Asia,52.3,42.0
+Sweden,Europe,83.5,1.0
+Switzerland,Europe,82.1,0.0
+Thailand,Asia,55.4,6.0
+Tunisia,Africa,51.7,18.3
+Turkey,"Asia, Europe",51.3,10.0
+Ukraine,Europe,61.2,3.0
+United Kingdom,Europe,74.4,1.0
+United States,North America,70.4,1.7
+Uruguay,South America,67.1,2.9
+Vietnam,Asia,57.8,22.0
