@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "xxx",
+
+
+   "data": {
+    "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/project/mob_cost_pov.csv",
+    "format": {"type": "csv"}
+  },
+
+ "title": {
+    "text": "Poverty and Cost of Opening a Business Around the World ",
+    "subtitle": "Poverty is measured as percentage of population living on below $5.50 a day (PPP); Cost expressed as percentage of annual income; Source: World Bank, World Poverty Clock",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start"
+  },
+  
+ "height": 300,
+ "width": 300,
+  "mark": {"type": "circle", "size": 50},
+
+  
+  "encoding": {
+    "y": {
+      "field": "Cost",
+      "type": "quantitative",
+      "title": "Cost (% of GNI)",
+      "scale":{
+      "type": "sqrt"
+    }
+    },
+    "x": {
+      "field": "Poverty",
+      "type": "quantitative",
+      "title": "Proportion of population in poverty",
+      "scale":{
+      "type": "sqrt"
+    } 
+    },
+    "color": {"field": "Continent", "type": "nominal", "title": "Continent:"},
+
+   "tooltip": [
+      {"field": "Country", "type": "nominal", "title": "Country"}
+      ]
+}}
