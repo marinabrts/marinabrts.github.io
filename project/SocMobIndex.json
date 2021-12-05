@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "Social Mobility Index Around the World",
+  "title": {
+    "text": "Social Mobility Index Around the World",
+    "subtitleFontSize": 11,
+    "fontSize": 12,
+    "subtitle": "Source: World Economic Forum",
+    "subtitleFontStyle":"italic"
+  },
+
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/project/mob_cost_pov.csv",
+    "format": {"type": "csv"}
+  },
+  
+ "height": 380,
+ "width": 300,
+ 
+"mark": {"type": "bar", "size": 6
+},
+"type": "text",
+
+
+
+"selection": {
+    "Continent": {
+      "type": "single",
+      "fields": ["Continent"],
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Africa",
+          "Asia",
+          "Europe",
+          "North America",
+          "South America"
+        ],
+        "name": "Continent"
+      }
+    }
+  },
+
+   "transform": [
+    
+    {"filter": {"selection": "Continent"}}
+  ],
+
+  "encoding": {
+  "y": {
+      "field": "Country", 
+      "type": "nominal", 
+      "title": "", 
+      "axis": {"labelAngle": 0,"labelFontSize": 9.5}},
+
+      "color": {"field": "Continent", "type": "nominal", "title": "Continent:", "scale": {"scheme": "set2"}},
+
+   "tooltip": [
+      {"field": "Country", "type": "nominal", "title": "Country"},
+      {"field": "Index Score", "type": "nominal", "title": "Index Score"}],
+
+  "x": {"field": "Index Score",
+    "type": "quantitative",
+    "axis": {"labelAngle": 0,"grid": true, "gridColor": "#C2C3C0"}
+    }
+  }
+}
