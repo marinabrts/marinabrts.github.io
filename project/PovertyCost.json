@@ -7,10 +7,12 @@
     "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/project/mob_cost_pov.csv",
     "format": {"type": "csv"}
   },
-
+"background": "#FAFFE1",
  "title": {
     "text": "Poverty and Cost of Opening a Business Around the World ",
-    "subtitle": "Poverty is measured as percentage of population living on below $5.50 a day (PPP); Cost expressed as percentage of annual income; Source: World Bank, World Poverty Clock",
+    "subtitle": [
+      "Poverty is measured as percentage of population living on below $5.50 a day (PPP)",
+      "Cost expressed as percentage of annual income; Source: World Bank, World Poverty Clock"],
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start"
@@ -38,7 +40,7 @@
       "type": "sqrt"
     } 
     },
-    "color": {"field": "Continent", "type": "nominal", "title": "Continent:"},
+    "color": {"field": "Continent", "type": "nominal", "title": "Continent:", "scale": {"scheme": "set1"}},
 
    "tooltip": [
       {"field": "Country", "type": "nominal", "title": "Country"}
