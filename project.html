@@ -6,7 +6,14 @@
 <link rel="stylesheet" href="index.css">
   
 <style>
+body {background-color: "#CECDD2";}
+  
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 </style>
   
 <!--The next three lines allow the Vega embed-->
@@ -18,7 +25,66 @@
 </head>
 
 <body>
+
+<body onload="myFunction()"> 
+    
   
-<h1> This is my Data Science Project </h1> 
+ 
+<h1><b><span style="color:rgb(255, 237, 61)">DataScience </span><span style="color:rgb(255, 255, 255)">Project</span></b></h1>
+ 
+<div class="container">
+
+<button class="button-52" role="button" onclick="location.href='https://marinabrts.github.io/'">Portfolio  </button> 
+<button class="button-52" role="button" onclick="location.href='https://github.com/marinabrts/marinabrts.github.io'">  GitHub</button> 
+
+</div>  
+  
+  <p> This is my project </p> 
+
+<!--Chart 1 -- Social Mobility Index around the world>
+ <div class="chart" id="chart1">
+      <script>
+        var myChart1 = "SocMobIndex.json";
+        vegaEmbed('#chart1', myChart1);
+      </script>
+ </div>
+
+<!--Chart 2 -- Days and cost to start a business>
+ <div class="chart" id="chart2">
+      <script>
+        var myChart2 = "DaysCostBar.json";
+        vegaEmbed('#chart2', myChart2);
+      </script>
+ </div>
+
+<!--Chart 3 -- Poverty and cost of starting a business>
+ <div class="chart" id="chart3">
+      <script>
+        var myChart3 = "PovertyCost.json";
+        vegaEmbed('#chart3', myChart3);
+      </script>
+ </div>
+
+
+<!--Chart 4 -- Social Mobility Index and number of new business registrations per 1000 people>
+ <div class="chart" id="chart4">
+      <script>
+        var myChart4 = "BusRegSocMob.json";
+        vegaEmbed('#chart4', myChart4);
+      </script>
+ </div>
+  
+  
+  
+
   
 </body>
+
+  
+  
+
+
+
+  
+  
+
