@@ -131,6 +131,8 @@ p{
     border-radius: 10px;
     border-color: white;
     margin: 30px;
+}
 
-
+.img {
+  border-radius: 8px;
 }
