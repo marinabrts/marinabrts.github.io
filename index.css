@@ -25,11 +25,11 @@ h3{
 
 hr {
   border:none;
-  border-top:5px dotted #AC35F0; 
+  border-top:6px dotted #AC35F0; 
   color:#6666FF;
   background-color: transparent;
-  height:1px;
-  width:440;
+  height:2px;
+  width:460;
 }
 
 
@@ -38,7 +38,6 @@ p{
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
     text-align: center;
-    margin: 25px 50px 25px;
 }
 
 
@@ -47,6 +46,7 @@ p{
     color: black;
     font-weight: lighter;
     text-align: left;
+    margin: 18px 40px 18px;
 }
 
 .text {
