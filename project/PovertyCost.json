@@ -7,7 +7,7 @@
     "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/project/mob_cost_pov.csv",
     "format": {"type": "csv"}
   },
-"background": "#FAFFE1",
+"background": "#FFF6DE",
  "title": {
     "text": "Poverty and Cost of Opening a Business Around the World ",
     "subtitle": [
@@ -40,7 +40,7 @@
       "type": "sqrt"
     } 
     },
-    "color": {"field": "Continent", "type": "nominal", "title": "Continent:", "scale": {"scheme": "set1"}},
+    "color": {"field": "Continent", "type": "nominal", "title": "Continent:", "scale": {"scheme": "dark2"}},
 
    "tooltip": [
       {"field": "Country", "type": "nominal", "title": "Country"}
