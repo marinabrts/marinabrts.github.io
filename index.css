@@ -45,6 +45,7 @@ p{
     font-size: 12px;
     color: black;
     font-weight: lighter;
+    text-align: right;
 }
 
 .text {
@@ -71,7 +72,7 @@ p{
 
 .bodywrap1{
     background-color: #FFC3FE;
-    width: 450px;
+    width: 500px;
     margin: auto;
     
 }
