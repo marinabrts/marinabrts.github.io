@@ -9,8 +9,9 @@
   },
 
  "title": {
-    "text": "Social Mobility Index and Number of Business Registrations Around the World",
-    "subtitle": "Social mobility index and new business registrations per 1,000 people; Source: World Bank, World Economic Forum",
+    "text": "Social Mobility Index and Business Registrations Around the World",
+    "subtitle": ["New business registrations per 1,000 people",
+    "Source: World Bank, World Economic Forum"],
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start"
