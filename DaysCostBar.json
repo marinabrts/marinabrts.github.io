@@ -14,11 +14,11 @@
     "anchor": "start"
   },
   
- "height": 300,
+ "height": 280,
  "width": 350,
 
 
-"mark": {"type": "bar", "size":10},
+"mark": {"type": "bar", "size":9},
 
 
 
