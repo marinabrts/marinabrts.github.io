@@ -8,7 +8,7 @@
 
   "title": {
     "text": "Days required and cost of opening a business around the world",
-    "subtitle": "Year: 2019;Source: Doing Business, World Bank Group",
+    "subtitle": "Cost expressed as percentage of income per capita; Year: 2019; Source: World Bank",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start"
@@ -44,7 +44,7 @@
     "color":{
       "field":"Cost",
       "type": "quantitative",
-      "title":"Cost (% of GNI)",
+      "title":"Cost",
       "scale": {"scheme": "turbo"}},
 
     "x": {
