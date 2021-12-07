@@ -38,7 +38,8 @@
       "title": "Proportion of population in poverty",
       "scale":{
       "type": "sqrt"
-    } 
+    },
+      "axis": {"labelFontSize": "10"}
     },
     "color": {"field": "Continent", "type": "nominal", "title": "Continent:", "scale": {"scheme": "dark2"}},
 
