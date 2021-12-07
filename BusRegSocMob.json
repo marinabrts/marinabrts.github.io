@@ -50,8 +50,7 @@
     "x": {
       "field": "Business Registrations",
       "type": "quantitative",
-      "title": "Registrations per 1,000 People",
-      "axis": {"labelFontSize": "10"}
+      "title": "Registrations per 1,000 People"
     },
     "y": {
       "field": "Index Score",
