@@ -19,7 +19,7 @@
   },
   
  "height": 300,
- "width": 290,
+ "width": 300,
   "mark": {"type": "circle", "size": 50},
 
   
@@ -39,7 +39,7 @@
       "scale":{
       "type": "sqrt"
     },
-      "axis": {"labelFontSize": "10"}
+    "axis": {"labelFontSize": "10"}
     },
     "color": {"field": "Continent", "type": "nominal", "title": "Continent:", "scale": {"scheme": "dark2"}},
 
