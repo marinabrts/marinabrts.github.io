@@ -1,0 +1,47 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+     
+       "title": {
+        "text": "Cost of Opening a Business (% of income per capita)",
+        "subtitle":"In countries with lowest and highest social mobility; Source: World Bank",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":11,
+        "anchor": "start",
+        "color": "black"},
+    
+      "data": {
+      "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/costBus.csv"
+    },
+    
+    "background": "#FFFDE1",
+    "repeat": {"layer": ["Guatemala","Senegal","Cameroon", "United Kingdom","Canada","Denmark"]},
+   
+    "spec": {
+        
+        "height": 300,
+        "width": 260,
+ 
+        "mark": {
+            "type":"line",
+            "strokeWidth":2},    
+  
+        "encoding": {
+            "x": {
+                "field": "Year",
+                "type": "temporal",
+                "axis": {"labelAngle": 270}},
+    
+            "y": {
+                "field": {"repeat": "layer"},
+                "type": "quantitative",
+                "title": "Cost (% of income per capita)",
+                "scale":{
+      "type": "sqrt"}},
+    
+            "color": {
+                "datum": {"repeat": "layer"},
+                "scale": {"range": ["#FF3399", "#FF9933", "red", "black", "#606060", "#6600CC"]}}
+           
+          } 
+      }
+  }
