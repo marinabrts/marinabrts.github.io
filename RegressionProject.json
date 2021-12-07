@@ -1,0 +1,91 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "xxx",
+
+
+   "data": {
+    "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/project/GEIxSMI.csv",
+    "format": {"type": "csv"}
+  },
+"background": "#E0E0E0",
+ "config": {
+    "axis": {
+      "grid": true,
+      "gridColor": "#FFFFFF"}},
+
+ "title": {
+    "text": "Regressing Social Mobility Index on Global Entrepreneurship Index",
+    "subtitle": "Source: World Economic Forum, The Global Entrepreneurship and Development Institute",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start"
+  },
+  
+ "height": 300,
+ "width": 300,
+"layer": [
+{"mark": {"type": "point", "size": 30, "color": "#FF3399"},
+
+"encoding": {
+    "x": {
+      "field": "GEI",
+      "type": "quantitative",
+      "title": "Global Entrepreneurship Index (GEI)"
+    },
+    "y": {
+      "field": "Index Score",
+      "type": "quantitative",
+      "title": "Social Mobility Index (SMI)",
+      "scale":{"domain":[30, 90]}
+    },
+    "tooltip": [
+      {"field": "Country", "type": "nominal", "title": "Country"},
+      {"field": "GEI", "type": "quantitative", "title": "GEI"},
+      {"field": "Index Score", "type": "quantitative", "title": "SMI" }
+      ]}},
+
+      {"mark": {
+        "type": "line",
+        "color": "#7F00FF", "size": 3},
+      "transform":[
+        {
+          "regression": "Index Score",
+          "on": "GEI"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "GEI",
+          "type": "quantitative"
+         
+        },
+        "y": {
+          "field": "Index Score",
+          "type": "quantitative"
+        }
+      }
+    },
+
+    {
+      "transform": [
+        {
+          "regression": "Index Score",
+          "on": "GEI",
+          "params": true
+        },
+        {"calculate": "'R²= '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "red", "size": 14,
+        "x": "width",
+        "align": "center",
+        "y": -5
+      },
+      "encoding": {
+        "text": {"type": "nominal", "field": "R2"}
+      }
+    }
+  ]
+
+}
