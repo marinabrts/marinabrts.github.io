@@ -24,11 +24,11 @@ h3{
 
 hr {
   border:none;
-  border-top:6px dotted #AC35F0; 
-  color:#6666FF;
+  border-top:6px dotted #FFF01F; 
+  color:#FFF01F;
   background-color: transparent;
-  height:2px;
-  width:480;
+  height:3px;
+  width:100%;
 }
 
 
