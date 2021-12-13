@@ -50,9 +50,10 @@ p{
 }
 
 .text {
-    font-size: 25px;
-    font-family: 'Nanum Gothic', sans-serif;
-    color:#6666FF;
+    font-size: 30px;
+    color: #9933FF;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
     text-decoration: normal;
 }
 
