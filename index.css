@@ -56,6 +56,13 @@ p{
     text-decoration: normal;
 }
 
+.sub {
+    font-size: 30px;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bolder;
+    text-decoration: normal;
+}
+
 .name {
     font-size: 40px;
     font-family: 'Satisfy', cursive;
