@@ -86,10 +86,10 @@ p{
   letter-spacing: 1px;
   padding: 13px 20px 13px;
   outline: 0;
-  border: 1px solid white;
+  border: 2px solid white;
   cursor: pointer;
   position: relative;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #FFFFFF;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
