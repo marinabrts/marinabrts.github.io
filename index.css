@@ -56,10 +56,10 @@ p{
 }
 
 .name {
+    font-size: 40px;
     font-family: 'Satisfy', cursive;
     text-align: center;
     color: #FFFFFF;
-    font-size: 30px;
 }
 
 .yellow {
