@@ -29,7 +29,8 @@
             "x": {
                 "field": "Year",
                 "type": "temporal",
-                "axis": {"labelAngle": 270}},
+                "axis": {"labelAngle": 270},
+                "title": ""},
     
             "y": {
                 "field": {"repeat": "layer"},
