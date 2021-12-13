@@ -48,9 +48,9 @@ p{
 }
 
 .text {
-    font-size: 30px;
+    font-size: 50px;
     color: #9933FF;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Playfair Display SC', serif;
     font-weight: bolder;
     text-decoration: normal;
 }
