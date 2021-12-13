@@ -54,7 +54,15 @@ p{
     font-family: 'Playfair Display SC', serif;
     font-weight: bolder;
     text-decoration: normal;
+    animation: blinker 1s step-start infinite;
 }
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 
 .sub {
     font-size: 30px;
