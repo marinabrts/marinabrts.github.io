@@ -27,7 +27,7 @@
         {"filter": {
           "field": "Country", 
           "oneOf": [
-"Canada","United States","Russian Federation","China","Australia","Brazil","Israel","Bolivia","Egypt, Arab Rep.","Nigeria","Chad","South Africa","United Kingdom","Denmark","Germany","Spain","Estonia","United Arab Emirates","Iran, Islamic Rep.","India","Kazakhstan","Singapore","Thailand","Indonesia"]}
+"Canada","United States","Russian Federation","China","Australia","Brazil","Israel","Bolivia","Egypt, Arab Rep.","Nigeria","South Africa","United Kingdom","Denmark","Germany","Spain","Estonia","United Arab Emirates","Iran, Islamic Rep.","India","Kazakhstan","Singapore","Thailand","Indonesia"]}
           }
       ],
 
