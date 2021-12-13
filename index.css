@@ -33,10 +33,11 @@ hr {
 
 
 p{
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
     text-align: center;
+    margin: 20px, 20px;
 }
 
 
