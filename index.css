@@ -2,7 +2,7 @@
 body{
 
     background-color: #000000;
-    max-width: 100%;
+    max-width: 600;
     margin: auto;
 }
 
@@ -70,19 +70,10 @@ p{
     color: white;
 }
 
+
 .bodywrap1{
-    background-color: #FCB4D6;
-    width: 500px;
-    margin: auto;
-    align: center;
-    
-}
-
-
-.bodywrap2{
     background-color: #A0A0A0;
-    width: 70%;
-    min-width: 600px;
+   width: 550px;
     margin: auto;
     align: center;
     
