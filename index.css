@@ -2,7 +2,7 @@
 body{
 
     background-color: #000000;
-    max-width: 550px;
+    max-width: 650px;
     margin: auto;
 }
 
@@ -78,6 +78,15 @@ p{
     
 }
 
+
+.bodywrap2{
+    background-color: #FCB4D6;
+    width: 70%;
+    min-width: 550px;
+    margin: auto;
+    align: center;
+    
+}
 
 .button-52 {
   font-size: 18px;
