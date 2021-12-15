@@ -10,14 +10,16 @@
 
  "title": {
     "text": "Social Mobility Index and Business Registrations",
-    "subtitle": "New business registrations per 1,000 people in 2018. Source: World Bank, World Economic Forum",
+    "subtitle": [
+      "New business registrations per 1,000 people in 2018.",
+      "Source: World Bank, World Economic Forum"],
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start"
   },
   
- "height": 300,
- "width": 275,
+ "height": 310,
+ "width": 285,
 
 "mark": {"type": "circle", "size": 60},
 
