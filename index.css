@@ -157,12 +157,13 @@ p{
 
 .img {
   border-radius: 8px;
+  width: 450px;
+  border-width: 10px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  margin: 30px;
 }
 
-.chart_head {
-   font-size: 30px;
-    font-family: 'Playfair Display SC', serif;
-    font-weight: bolder;
-    text-decoration: normal;
-    margin: 20px, 50px
-}
+
