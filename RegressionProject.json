@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "xxx",
+  "description": "Plotting a regression of Social Mobility Index on Global Entrepreneurship Index, equation acquired via Python",
 
 
    "data": {
