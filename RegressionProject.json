@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Plotting a regression of Social Mobility Index on Global Entrepreneurship Index, equation acquired via Python",
+  "description": "Figure 5: Plotting a regression of Social Mobility Index on Global Entrepreneurship Index, equation acquired via Python",
 
 
    "data": {
@@ -14,7 +14,7 @@
       "gridColor": "#FFFFFF"}},
 
  "title": {
-    "text": "Regressing Social Mobility Index on Global Entrepreneurship Index",
+    "text": "Figure 5: Regressing SMI on Global Entrepreneurship Index",
     "subtitle": "Source: World Economic Forum, The Global Entrepreneurship & Development Institute",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
