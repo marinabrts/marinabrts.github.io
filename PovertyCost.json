@@ -35,7 +35,7 @@
     "x": {
       "field": "Poverty",
       "type": "quantitative",
-      "title": "Proportion of population in poverty",
+      "title": "Proportion of population in poverty, sqrt scale",
       "scale":{
       "type": "sqrt"
     },
