@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "xxx",
+  "description": "Figure 4: Poverty and Cost of Opening a Business Around the World",
 
 
    "data": {
@@ -9,7 +9,7 @@
   },
 "background": "#FFF6DE",
  "title": {
-    "text": "Poverty and Cost of Opening a Business Around the World ",
+    "text": "Figure 4: Poverty and Cost of Opening a Business",
     "subtitle": [
       "Poverty is measured as percentage of population living on below $5.50 a day (PPP)",
       "Cost expressed as percentage of annual income; Source: World Bank, World Poverty Clock"],
