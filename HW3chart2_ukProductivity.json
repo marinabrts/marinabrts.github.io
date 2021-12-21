@@ -5,7 +5,8 @@
 
    "title": {
     "text": "Productivity",
-    "subtitle":"Output per hour worked (WITH AN ADDED OBSERVATION). Index: 2018 = 100. Source: ONS",
+    "subtitle":["Output per hour worked (WITH AN ADDED OBSERVATION).",
+     "Index: 2018 = 100. Source: ONS"],
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
@@ -15,7 +16,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/GrowthInnovationOutputperHour.csv"},
   "height": 300,
-  "width": 345,
+  "width": 365,
   "mark": {
     "type": "line",
     "point": false,
