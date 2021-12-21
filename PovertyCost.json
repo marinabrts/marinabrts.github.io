@@ -44,6 +44,8 @@
     "color": {"field": "Continent", "type": "nominal", "title": "Continent:", "scale": {"scheme": "dark2"}},
 
    "tooltip": [
-      {"field": "Country", "type": "nominal", "title": "Country"}
+      {"field": "Country", "type": "nominal", "title": "Country"},
+     {"field": "Poverty", "type": "quantitative", "title": "Poverty"},
+     {"field": "Cost", "type": "quantitative", "title": "Cost"}
       ]
 }}
