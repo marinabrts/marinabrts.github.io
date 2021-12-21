@@ -1,0 +1,43 @@
+ {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "USD/GBP exchange rate",
+
+   "title": {
+    "text": "USD/GBP Exchange Rate",
+    "subtitle":"USD – base currency, GBP – quote currency",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10
+    },
+  "background": "EBEBEB",
+   
+  "data": {
+      "url":"https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/rates_of_exchange?fields=record_date,country,exchange_rate&filter=country_currency_desc:eq:United Kingdom-Pound,record_date:gte:2000-01-01?format=json",
+      "format":{
+        "type":"json",
+        "property":"data"
+      }},
+  
+
+  "height": 300,
+  "width": 300,
+
+
+"mark": {"type": "line", "color": "#FF66B2"
+},
+  "encoding": {
+  "x": {
+      "field": "record_date", 
+      "type": "temporal",
+      "title": null,
+       "axis": {"labelAngle": 270}
+       },
+
+  "y": {"field": "exchange_rate",
+    "type": "quantitative",
+    "scale":{"domain":[0.4, 0.9]},
+    "title": null
+    }
+  }
+  
+}
