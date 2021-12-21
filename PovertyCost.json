@@ -27,7 +27,7 @@
     "y": {
       "field": "Cost",
       "type": "quantitative",
-      "title": "Cost (% of GNI)",
+      "title": "Cost (% of GNI), sqrt scale",
       "scale":{
       "type": "sqrt"
     }
