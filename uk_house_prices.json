@@ -5,7 +5,7 @@
 
    "title": {
     "text": "Residential Property Prices for the UK",
-    "subtitle":"Source: FRED",
+    "subtitle":"Index 2010=100. Source: FRED",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
