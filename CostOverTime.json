@@ -37,7 +37,7 @@
             "y": {
                 "field": {"repeat": "layer"},
                 "type": "quantitative",
-                "title": "Cost (% of income per capita)",
+                "title": "Cost (% of income per capita), sqrt scale",
                 "scale":{
       "type": "sqrt"}},
     
