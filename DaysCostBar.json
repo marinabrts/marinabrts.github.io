@@ -34,7 +34,7 @@
   "encoding": {
     "y": {"field": "Days",
     "type": "quantitative",
-    "title": "Days",
+    "title": "Days, sqrt scale",
     "scale":{
       "type": "sqrt"
     }
