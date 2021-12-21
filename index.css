@@ -147,6 +147,7 @@ p{
 
 .chart{
     width: 450px;
+    hight: 450px;
     border-width: 10px;
     background-color: white;
     border-style: solid;
