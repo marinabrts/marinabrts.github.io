@@ -40,7 +40,7 @@
     "y": {
       "field": "value",
       "type": "quantitative",
-      "title": "",
+      "title": "USD",
       "axis": {"grid": true}
     }
   }
