@@ -1,13 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A chart showing how long it takes to open a business in different countries around the world and how much it costs (as % of GNI)", 
+  "description": "Figure 3: A chart showing how long it takes to open a business in different countries around the world and how much it costs (as % of GNI)", 
    "data": {
     "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/project/cost%2Bdays.csv",
     "format": {"type": "csv"}
   },
 
   "title": {
-    "text": "Days required and cost of opening a business around the world",
+    "text": "Figure 3: Days Required and Cost of Opening a Business",
     "subtitle": "Cost expressed as percentage of income per capita; Year: 2019; Source: World Bank",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
