@@ -1,8 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    
+
      
        "title": {
-        "text": "Cost of Opening a Business (% of income per capita)",
+        "text": "Figure 2: Cost of Opening a Business (% of income per capita)",
         "subtitle":"In countries with lowest and highest social mobility; Source: World Bank",
         "subtitleFontStyle":"italic",
         "subtitleFontSize":11,
