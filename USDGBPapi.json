@@ -5,7 +5,7 @@
 
    "title": {
     "text": "USD/GBP Exchange Rate",
-    "subtitle":"USD – base currency, GBP – quote currency; Source: FiscalData.Treasury.gov API.",
+    "subtitle":"USD – base currency, GBP – quote currency. Source: FiscalData.Treasury.gov API.",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10
     },
