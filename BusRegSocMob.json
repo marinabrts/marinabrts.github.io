@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Number of new business registrations per 1,000 people plotted against Social Mobility Index",
+  "description": "Figure 6: Number of new business registrations per 1,000 people plotted against Social Mobility Index",
 
 
    "data": {
@@ -9,7 +9,7 @@
   },
 
  "title": {
-    "text": "Social Mobility Index and Business Registrations",
+    "text": "Figure 6: Social Mobility Index and Business Registrations",
     "subtitle": [
       "New business registrations per 1,000 people in 2018.",
       "Source: World Bank, World Economic Forum"],
@@ -64,9 +64,7 @@
 
 
    "tooltip": [
-      {"field": "Country", "type": "nominal", "title": "Country"},
-      {"field": "Index Score", "type": "quantitative", "title": "SMI"},
-      {"field": "Business Registrations", "type": "quantitative", "title": "Registrations"}
+      {"field": "Country", "type": "nominal", "title": "Country"}
       ]
 }
 }
