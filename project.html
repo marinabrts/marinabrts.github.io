@@ -78,7 +78,6 @@ around the world and plotting Global Social Mobility Index and related indicator
     <p> As evident from Figure 1, on average, SMI is higher in Europe, reaching over 80 in countries like Denmark and Sweden. African and Caribbean states have the lowest SMI in the sample with the index score as low as 36. 
       SMI varies the most in Asia, with countries like Bangladesh having the index score as low as 40, and states like Israel and Japan scoring around 70. </p>   
     
-     <p>&nbsp;</p>
     
     <p> Find the relevant Colab notebook for Figure 1 <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/socMob_Pov.ipynb">here</a>. 
 Social Mobility Index (SMI) is scraped from the Business Insider website (see the Colab notebook <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/social_mob_ind_scraping.ipynb">here</a>), 
@@ -112,7 +111,6 @@ Clearly, there is a negative relationship between SMI and cost of opening a busi
 follow this pattern. However, there are outliers: in South Africa it takes 40 days to start a business, which is longer than in almost all countries in the sample but the cost of it is 0.2% of income per capita, 
 almost the lowest. In contrast, in Nigeria and Egypt cost is rather high, while a business can be opened in just 1-2 weeks. </p>
     
-      <p>&nbsp;</p>
     
     <p> The data for Figre 3 is accessed via the World Bank API using for loops in Python. Find the relevant Colab notebooks for <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/cost_to_start_business.ipynb">cost</a>, 
       days to open a <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/days_to_start_business.ipynb">business</a>, and combining the 
@@ -127,12 +125,12 @@ almost the lowest. In contrast, in Nigeria and Egypt cost is rather high, while 
       </script>
  </div>
 
- <p> Poverty level is negatively correlated with SMI, which is illustrated in <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/RegressionPovSMI.ipynb"> this</a> regression analysis. 
+ <p> Poverty level is negatively correlated with SMI, which is evident from <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/RegressionPovSMI.ipynb"> this</a> regression analysis. 
 A positive relationship between cost of starting a business and proportion of population in poverty is clear from Figure 4. The outliers are China, Armenia and South Africa, where the cost of starting
  a business is low but poverty is rather high, and El Salvador, where the cost is too high for the country's poverty level relative to other countries in the sample. </p>
-      <p>&nbsp;</p>
+
    
-   <p>Cost is aquired via the World Bank API using for loops in Python. The cost data frame is then merged with the existing data frame that includes the data on social mobility and poverty (see description to Figure 1). 
+   <p> Cost is aquired via the World Bank API using for loops in Python. The cost data frame is then merged with the existing data frame that includes the data on social mobility and poverty (see description to Figure 1). 
 The Colab notebook is availible <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/mob_cost_pov.ipynb">here</a>.</p>
    
 <!-- Chart 20 --Regressing Social Mobility Index on Global Entrepreneurship Index -->
