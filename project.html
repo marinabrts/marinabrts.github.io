@@ -107,15 +107,15 @@ Clearly, there is a negative relationship between SMI and cost of opening a busi
       </script>
  </div>
    
-    <p> Judging from Figure 3, while there is some positive relationship between cost of starting a business and days it takes, there are many outliners. Most Western, some Asian and South American states 
-follow this pattern. However, there are outliners. For instance, in South Africa it takes 40 days to start a business, which is longer than in almost all countries in the sample but the cost of it is 0.2% of income per capita, 
+    <p> Judging from Figure 3, while there is some positive relationship between cost of starting a business and days it takes, there are many outliers. Most Western, some Asian and South American states 
+follow this pattern. However, there are outliers: in South Africa it takes 40 days to start a business, which is longer than in almost all countries in the sample but the cost of it is 0.2% of income per capita, 
 almost the lowest. In contrast, in Nigeria and Egypt cost is rather high, while a business can be opened in just 1-2 weeks. </p>
     
       <p>&nbsp;</p>
     
-    <p> The data is accessed via the World Bank API using for loops in Python. Find the relevant Colab notebooks for cost <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/cost_to_start_business.ipynb">here</a>, 
-      days to open a business <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/days_to_start_business.ipynb">here</a>, and combining the two in one dataset 
-<a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/cost%2Bdays.ipynb">here</a>. </p>
+    <p> The data for Figre 3 is accessed via the World Bank API using for loops in Python. Find the relevant Colab notebooks for <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/cost_to_start_business.ipynb">cost</a>, 
+      days to open a <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/days_to_start_business.ipynb">business</a>, and combining the 
+<a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/cost%2Bdays.ipynb">two</a> in one dataset. </p>
     
     
  <!-- Chart 19 -- Poverty level and cost of opening a business (% of income)  -->
@@ -126,6 +126,11 @@ almost the lowest. In contrast, in Nigeria and Egypt cost is rather high, while 
       </script>
  </div>
 
+ <p> A positive relationship between cost of starting a business and proportion of population in poverty is evident from Figure 4. The clear outliers are China, Armenia and South Africa, where the cost of starting a business is low but poverty is rather high, 
+and El Salvador, where the cost is too high for the country's poverty level comparing to other countries in the sample. 
+   
+   Cost is aquired via the World Bank API using for loops in Python. The cost data frame is then merged with the existing data frame that includes the data on social mobility and poverty (see description to Figure 1). 
+The Colab notebook is availible <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/mob_cost_pov.ipynb">here</a>.</p>
    
 <!-- Chart 20 --Regressing Social Mobility Index on Global Entrepreneurship Index -->
  <div class="chart" id="chart20">
