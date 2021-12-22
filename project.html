@@ -66,7 +66,7 @@
 mobility reflects the impact of socio-economic background on an individual’s outcomes in life. Global Social Mobility Index focuses on drivers of relative social mobility, such as specific policies, practices and institutions. 
 This allows for effective comparisons between regions and generations. Global Social Mobility Index is determined based on the following indicators: health, education, technology access, work opportunities, working conditions 
 and fair wages and finally social protection and inclusive institutions. This project seeks to understand the relationship between business climate and social mobility. This is done by evaluating different entrepreneurship indicators 
-around the world and plotting Global Social Mobility Index and related metrics, such as poverty, against various entrepreneurship indicators. </p>
+around the world and plotting Global Social Mobility Index and related measures, such as poverty, against various entrepreneurship indicators. </p>
     
 <!-- Chart 17 -- Social Mobility Index around the world -->
  <div class="chart" id="chart17">
@@ -75,14 +75,15 @@ around the world and plotting Global Social Mobility Index and related metrics, 
         vegaEmbed('#chart17', myChart17);
       </script>
  </div>
- <p> Find the relevant Colab notebook for Figure 1 <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/socMob_Pov.ipynb">here</a>. 
+    <p> As evident from Figure 1, on average, SMI is higher in Europe, reaching over 80 in countries like Denmark and Sweden. African and Caribbean states have the lowest SMI in the sample with the index score as low as 36. 
+      SMI varies the most in Asia, with countries like Bangladesh having the index score as low as 40, and states like Israel and Japan scoring around 70. </p>   
+    
+     <p>&nbsp;</p>
+    
+    <p> Find the relevant Colab notebook for Figure 1 <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/socMob_Pov.ipynb">here</a>. 
 Social Mobility Index (SMI) is scraped from the Business Insider website (see the Colab notebook <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/social_mob_ind_scraping.ipynb">here</a>), 
 and poverty data is scraped from Wikipedia (see the Colab notebook <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/poverty1.ipynb">here</a>).</p>   
 
- <p>&nbsp;</p>
-    
-    <p> As evident from Figure 1, on average, SMI is higher in Europe, reaching over 80 in countries like Denmark and Sweden. African and Caribbean states have the lowest SMI in the sample with the index score as low as 36. 
-      SMI varies the most in Asia, with countries like Bangladesh having the index score as low as 40, and states like Israel and Japan scoring around 70. </p>   
     
     <!-- Chart 22 -- Cost to open a business over time (as % of income per capita) -->
  <div class="chart" id="chart22">
@@ -106,6 +107,17 @@ Clearly, there is a negative relationship between SMI and cost of opening a busi
       </script>
  </div>
    
+    <p> Judging from Figure 3, while there is some positive relationship between cost of starting a business and days it takes, there are many outliners. Most Western, some Asian and South American states 
+follow this pattern. However, there are outliners. For instance, in South Africa it takes 40 days to start a business, which is longer than in almost all countries in the sample but the cost of it is 0.2% of income per capita, 
+almost the lowest. In contrast, in Nigeria and Egypt cost is rather high, while a business can be opened in just 1-2 weeks. </p>
+    
+      <p>&nbsp;</p>
+    
+    <p> The data is accessed via the World Bank API using for loops in Python. Find the relevant Colab notebooks for cost <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/cost_to_start_business.ipynb">here</a>, 
+      days to open a business <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/days_to_start_business.ipynb">here</a>, and combining the two in one dataset 
+<a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/cost%2Bdays.ipynb">here</a>. </p>
+    
+    
  <!-- Chart 19 -- Poverty level and cost of opening a business (% of income)  -->
  <div class="chart" id="chart19">
       <script>
