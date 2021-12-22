@@ -21,7 +21,7 @@
     "spec": {
         
         "height": 300,
-        "width": 280,
+        "width": 290,
  
         "mark": {
             "type":"line",
