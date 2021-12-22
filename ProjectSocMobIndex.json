@@ -9,7 +9,7 @@
     "subtitle": "Source: World Economic Forum",
     "subtitleFontStyle":"italic"
   },
-
+"background": "floralwhite",
 
   "data": {
     "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/project/mob_cost_pov.csv",
@@ -17,9 +17,9 @@
   },
   
  "height": 380,
- "width": 250,
+ "width": 260,
  
-"mark": {"type": "bar", "size": 6
+"mark": {"type": "bar", "size": 5.5
 },
 "type": "text",
 
@@ -54,7 +54,7 @@
       "field": "Country", 
       "type": "nominal", 
       "title": "", 
-      "axis": {"labelAngle": 0,"labelFontSize": 9.5}},
+      "axis": {"labelAngle": 0,"labelFontSize": 9.4}},
 
       "color": {"field": "Continent", "type": "nominal", "title": "Continent:", "scale": {"scheme": "set2"}},
 
