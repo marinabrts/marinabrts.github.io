@@ -18,7 +18,7 @@
     {"date": "1972-01-01", "value": 55}
 ]},
   "height": 300,
-  "width": 365,
+  "width": 380,
   "mark": {
     "type": "area",
     "point": true,
