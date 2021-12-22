@@ -66,7 +66,7 @@
 mobility reflects the impact of socio-economic background on an individual’s outcomes in life. Global Social Mobility Index focuses on drivers of relative social mobility, such as specific policies, practices and institutions. 
 This allows for effective comparisons between regions and generations. Global Social Mobility Index is determined based on the following indicators: health, education, technology access, work opportunities, working conditions 
 and fair wages and finally social protection and inclusive institutions. This project seeks to understand the relationship between business climate and social mobility. This is done by evaluating different entrepreneurship indicators 
-around the world and plotting Global Social Mobility Index and related measures, such as poverty, against various entrepreneurship indicators. </p>
+around the world and plotting Global Social Mobility Index and related indicators, such as poverty, against various entrepreneurship measures. </p>
     
 <!-- Chart 17 -- Social Mobility Index around the world -->
  <div class="chart" id="chart17">
@@ -82,7 +82,9 @@ around the world and plotting Global Social Mobility Index and related measures,
     
     <p> Find the relevant Colab notebook for Figure 1 <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/socMob_Pov.ipynb">here</a>. 
 Social Mobility Index (SMI) is scraped from the Business Insider website (see the Colab notebook <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/social_mob_ind_scraping.ipynb">here</a>), 
-and poverty data is scraped from Wikipedia (see the Colab notebook <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/poverty1.ipynb">here</a>).</p>   
+and poverty data is scraped from Wikipedia (see the Colab notebook <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/poverty1.ipynb">here</a>).To be joined together, data frames must 
+have at least one common column name, so I rename the “Countries” column in the social mobility data frame to “Country” and join the two. Then I delete the useless columns and remove N/A values. Poverty values are 
+in percentage, which is not recognised as numeric in Vega. I replace the “%” sign with “ ”, create a new data frame and save it in csv format. I then join this data frame with the original one, as they have a common “Country” column.</p>   
 
     
     <!-- Chart 22 -- Cost to open a business over time (as % of income per capita) -->
@@ -93,10 +95,9 @@ and poverty data is scraped from Wikipedia (see the Colab notebook <a href="http
       </script>
  </div>   
    
-    <p> Figure 2 shows cost of opening a business for countries with highest (Canada, UK, Denmark) and lowest (Guatemala, Senegal, Cameroon) SMI from the Figure 1 sample. 
-The data is downloaded using the World Bank library in Python. The relevant Colab notebook is availible <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/CostOverTime.ipynb">here</a>. 
-Evidently, cost of opening business in states with lowest SMI has been declining significantly over the last two decades, which is a positive development since lower cost of opening a 
-business is associated with lower poverty level (see below) and favoraly affects business activity. Meanwhile, for countries with highest SMI, the cost slightly fluctuated but stayed below 4% of income per capita. 
+    <p> The data for Figure 2 is downloaded using the World Bank library in Python. The relevant Colab notebook is availible <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/CostOverTime.ipynb">here</a>. 
+As evident from Figure 2, cost of opening business in states with lowest SMI (Guatemala, Senegal, Cameroon) has been declining significantly over the last two decades, which is a positive development since lower cost of opening a 
+business is associated with lower poverty level (see below) and favoraly affects business activity. Meanwhile, for countries with highest SMI (Canada, UK, Denmark), the cost slightly fluctuated but stayed below 4% of income per capita. 
 Clearly, there is a negative relationship between SMI and cost of opening a business. </p> 
     
 <!-- Chart 18 -- Days and cost to start a business -->
@@ -126,8 +127,8 @@ almost the lowest. In contrast, in Nigeria and Egypt cost is rather high, while 
       </script>
  </div>
 
- <p> A positive relationship between cost of starting a business and proportion of population in poverty is evident from Figure 4. The clear outliers are China, Armenia and South Africa, where the cost of starting a business is low but poverty is rather high, 
-and El Salvador, where the cost is too high for the country's poverty level comparing to other countries in the sample. </p>
+ <p> A positive relationship between cost of starting a business and proportion of population in poverty is clear from Figure 4. The outliers are China, Armenia and South Africa, where the cost of starting a business is low but poverty is rather high, 
+and El Salvador, where the cost is too high for the country's poverty level relative to other countries in the sample. </p>
       <p>&nbsp;</p>
    
    <p>Cost is aquired via the World Bank API using for loops in Python. The cost data frame is then merged with the existing data frame that includes the data on social mobility and poverty (see description to Figure 1). 
@@ -156,7 +157,7 @@ means that 72% of variation in the Social Mobility Index is explained by Global 
       </script>
  </div>
   
- 
+
    
 
 
