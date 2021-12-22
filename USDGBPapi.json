@@ -5,12 +5,13 @@
 
    "title": {
     "text": "USD/GBP Exchange Rate",
-    "subtitle":"USD – base currency, GBP – quote currency. Source: FiscalData.Treasury.gov API.",
+    "subtitle":"USD base currency, GBP quote currency. Source: FiscalData.Treasury.gov API.",
     "subtitleFontStyle":"italic",
-    "subtitleFontSize":10
+    "subtitleFontSize":10,
+    "anchor": "start"
     },
   
-   "background": "E2DEDE",
+   "background": "floralwhite",
    
   "data": {
       "url":"https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/rates_of_exchange?fields=record_date,country,exchange_rate&filter=country_currency_desc:eq:United Kingdom-Pound,record_date:gte:2000-01-01?format=json",
@@ -21,7 +22,7 @@
   
 
   "height": 300,
-  "width": 350,
+  "width": 360,
 
 
 "mark": {"type": "line", "color": "#FF66B2"
