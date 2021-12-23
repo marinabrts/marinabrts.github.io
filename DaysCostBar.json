@@ -9,7 +9,7 @@
 
   "title": {
     "text": "Figure 3: Days Required and Cost of Opening a Business",
-    "subtitle": "Cost expressed as percentage of income per capita; Year: 2019; Source: World Bank",
+    "subtitle": "Cost expressed as percentage of income per capita. Source: World Bank (2019)",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start"
