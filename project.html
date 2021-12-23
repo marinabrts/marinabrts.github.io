@@ -58,15 +58,13 @@
     
       <p class="text"> Project </p>
 
-<p class=sub><b><span style="color:rgb(255, 237, 61)">Research Question:</span><span style="color:rgb(255, 255, 255)"> Does a more favourable business climate lead to higher social mobility?</span></b></p>
+<p class=sub><b><span style="color:rgb(255, 237, 61)">Topic:</span><span style="color:rgb(255, 255, 255)"> Is higher social mobility associated with a more favourable business climate?</span></b></p>
 
 <hr>
 
-    <p> Social mobility refers to the movement of individuals either up or down the socioeconomic ladder in relation to the position of their parents. This is often described as absolute social mobility. Relative social 
-mobility reflects the impact of socio-economic background on an individual’s outcomes in life. Global Social Mobility Index focuses on drivers of relative social mobility, such as specific policies, practices and institutions. 
-This allows for effective comparisons between regions and generations. Global Social Mobility Index is determined based on the following indicators: health, education, technology access, work opportunities, working conditions 
-and fair wages and finally social protection and inclusive institutions. This project seeks to understand the relationship between business climate and social mobility. This is done by evaluating different entrepreneurship indicators 
-around the world and plotting Global Social Mobility Index and related indicators, such as poverty, against various entrepreneurship measures. </p>
+    <p> Social mobility refers to the movement of individuals either up or down the socioeconomic ladder relative to the position of their parents. Global Social Mobility Index (SMI) measures the impact 
+of socio-economic background on one’s outcomes in life. It is determined based on the following indicators: health, education, technology access, work opportunities, working conditions and social protection. 
+This project seeks to understand the relationship between business climate and social mobility. This is done by evaluating entrepreneurship indicators around the world and plotting SMI and related measures against them. </p>
     
 <!-- Chart 17 -- Social Mobility Index around the world -->
  <div class="chart" id="chart17">
@@ -75,16 +73,15 @@ around the world and plotting Global Social Mobility Index and related indicator
         vegaEmbed('#chart17', myChart17);
       </script>
  </div>
-    <p> As evident from Figure 1, on average, SMI is higher in Europe, reaching over 80 in countries like Denmark and Sweden. African and Caribbean states have the lowest SMI in the sample with the index score as low as 36. 
-      SMI varies the most in Asia, with countries like Bangladesh having the index score as low as 40, and states like Israel and Japan scoring around 70. </p>   
+    <p> As evident from Figure 1, on average, SMI is higher in Europe and lower in African and Caribbean states. SMI varies the most in Asia, with countries like Bangladesh having SMI as low as 40, and states like 
+Japan scoring over 70. </p>   
     
     
-    <p> Find the relevant Colab notebook for Figure 1 <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/socMob_Pov.ipynb">here</a>. 
-Social Mobility Index (SMI) is scraped from the Business Insider website (see the Colab notebook <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/social_mob_ind_scraping.ipynb">here</a>), 
-and poverty data is scraped from Wikipedia (see the Colab notebook <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/poverty1.ipynb">here</a>).To be joined together, data frames must 
-have at least one common column name, so I rename the “Countries” column in the social mobility data frame to “Country” and join the two. Then I delete the useless columns and remove N/A values. Poverty values are 
-in percentage, which is not recognised as numeric in Vega. I replace the “%” sign with “ ”, create a new data frame and save it in csv format. I then join this data frame with the original one, as they have a common “Country” column.</p>   
-
+    <p> Find the Colab notebook for Figure 1 <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/socMob_Pov.ipynb">here</a>. SMI is scraped from the Business Insider website (
+<a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/social_mob_ind_scraping.ipynb">here</a> is the Colab notebook), and poverty data is scraped from Wikipedia (<a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/poverty1.ipynb">here</a>
+ is the Colab notebook). To be joined together, data frames must have a common column name, so I rename one column and join the data frames. Poverty values are in percentage and are not recognised as numeric in Vega-Lite. 
+I remove the “%” sign, change the data type to numeric and create a new data frame. Then I join it with the original data frame, as they have one column in common. </p>
+      
     
     <!-- Chart 22 -- Cost to open a business over time (as % of income per capita) -->
  <div class="chart" id="chart22">
@@ -94,10 +91,9 @@ in percentage, which is not recognised as numeric in Vega. I replace the “%”
       </script>
  </div>   
    
-    <p> The data for Figure 2 is downloaded using the World Bank library in Python. The relevant Colab notebook is availible <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/CostOverTime.ipynb">here</a>. 
-As evident from Figure 2, cost of opening business in states with lowest SMI (Guatemala, Senegal, Cameroon) has been declining significantly over the last two decades, which is a positive development since lower cost of opening a 
-business is associated with lower poverty level (see below) and favoraly affects business activity. Meanwhile, for countries with highest SMI (Canada, UK, Denmark), the cost slightly fluctuated but stayed below 4% of income per capita. 
-Clearly, there is a negative relationship between SMI and cost of opening a business. </p> 
+    <p> The data for Figure 2 is downloaded using the World Bank library in Python. The Colab notebook is availible <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/CostOverTime.ipynb">here</a>. 
+As evident from Figure 2, cost of opening a business in states with the lowest SMI (Guatemala, Senegal, Cameroon) has been declining significantly over the last two decades. Meanwhile, for countries with the highest SMI (Canada, UK, Denmark), 
+it fluctuated but stayed below 4% of income per capita. Clearly, there is a negative relationship between SMI and cost of opening a business. </p> 
     
 <!-- Chart 18 -- Days and cost to start a business -->
  <div class="chart" id="chart18">
@@ -107,15 +103,15 @@ Clearly, there is a negative relationship between SMI and cost of opening a busi
       </script>
  </div>
    
-    <p> Judging from Figure 3, while there is some positive relationship between cost of starting a business and days it takes, there are many outliers. Most Western, some Asian and South American states 
-follow this pattern. However, there are outliers: in South Africa it takes 40 days to start a business, which is longer than in almost all countries in the sample but the cost of it is 0.2% of income per capita, 
-almost the lowest. In contrast, in Nigeria and Egypt cost is rather high, while a business can be opened in just 1-2 weeks. </p>
+    <p> Judging from Figure 3, there is some positive relationship between cost of starting a business and days it takes. Most Western, some Asian and South American states follow this pattern. However, there are many outliers, 
+such as South Africa, where it takes almost the longest to start a business, but it costs the least. </p>
     
     
-    <p> The data for Figre 3 is accessed via the World Bank API using for loops in Python. Find the relevant Colab notebooks for <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/cost_to_start_business.ipynb">cost</a>, 
-      days to open a <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/days_to_start_business.ipynb">business</a>, and combining the 
-<a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/cost%2Bdays.ipynb">two</a> in one dataset. </p>
-    
+    <p> The data for Figure 3 is accessed via the World Bank API using For loops in Python to iterate through the country list and obtain name and value for each country. 
+See the Colab notebooks for <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/cost_to_start_business.ipynb">cost</a>, 
+<a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/days_to_start_business.ipynb">days</a> to open a business, and combining the 
+<a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/cost%2Bdays.ipynb">two</a> in one dataset. </p>
+      
     
  <!-- Chart 19 -- Poverty level and cost of opening a business (% of income)  -->
  <div class="chart" id="chart19">
@@ -125,13 +121,14 @@ almost the lowest. In contrast, in Nigeria and Egypt cost is rather high, while 
       </script>
  </div>
 
- <p> Poverty level is negatively correlated with SMI, which is evident from <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/RegressionPovSMI.ipynb"> this</a> regression analysis. 
-A positive relationship between cost of starting a business and proportion of population in poverty is clear from Figure 4. The outliers are China, Armenia and South Africa, where the cost of starting
- a business is low but poverty is rather high, and El Salvador, where the cost is too high for the country's poverty level relative to other countries in the sample. </p>
+ <p> Poverty level is negatively correlated with SMI, which is evident from <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/RegressionPovSMI.ipynb">this</a> regression analysis. 
+A positive relationship between cost of starting a business and proportion of population in poverty is clear from Figure 4. </p>
+
 
    
-   <p> Cost is aquired via the World Bank API using for loops in Python. The cost data frame is then merged with the existing data frame that includes the data on social mobility and poverty (see description to Figure 1). 
-The Colab notebook is availible <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/mob_cost_pov.ipynb">here</a>.</p>
+   <p> Cost is acquired via the World Bank API using for loops in Python. The cost data frame is then merged with an existing social mobility and poverty data frame. 
+<a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/mob_cost_pov.ipynb">Here</a> is the Colab notebook.</p>
+
    
 <!-- Chart 20 --Regressing Social Mobility Index on Global Entrepreneurship Index -->
  <div class="chart" id="chart20">
@@ -141,13 +138,10 @@ The Colab notebook is availible <a href="https://github.com/marinabrts/marinabrt
       </script>
  </div>
     
-  <p> Global Entrepreneurship Index (GEI) is calculated by the Global Entrepreneurship and Development Institute and is scraped from their website. GEI is calculated by measuring entrepreneurial attitudes, abilities, 
-and aspirations of the local population and then weighting them against the social and economic infrastructure. </p>
-    
-    <p> The regression equation for Figure 5 was calculated using a regplot Seaborn function in Colab and then was 
-plugged into Vega Lite to generate the regression plot. <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/project/GEIxSMI.ipynb">Here</a> is the relevant Colab notebook. R squared (R^2) is calculated 
-in Vega Lite. R^2 is the square of the correlation between the independent and dependent variables, it measures the proportion of variation in the dependent variable that can be attributed to the independent variable. R^2 of 
-0.72 means that 72% of variation in SMI is explained by GEI, which suggests a strong positive correlation between the two indicators. </p>
+  <p> Global Entrepreneurship Index (GEI) is calculated by the Global Entrepreneurship and Development Institute and is scraped from their website. The regression equation for Figure 5 was calculated using the regplot Seaborn function in Colab and then was plugged into Vega-Lite 
+to generate a regression plot. <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/GEIxSMI.ipynb">Here</a> is the Colab notebook. R squared (R2) is calculated in Vega-Lite. R2 is the square of the correlation between the independent and dependent variables, 
+it measures the proportion of variation in the dependent variable that can be attributed to the independent variable. R2 of 0.72 means that 72% of the variation in SMI is explained by GEI, which suggests a strong positive correlation between the two indicators. </p>
+     
    
 <!-- Chart 21 -- Social Mobility Index and number of new business registrations per 1000 people -->
  <div class="chart" id="chart21">
@@ -157,24 +151,19 @@ in Vega Lite. R^2 is the square of the correlation between the independent and d
       </script>
  </div>
  
-<p> New business registrations data was downloaded from the World Bank website and edited in Colab by removing N/A values, selecting necessary columns and transposing the data frame. I then joined it with the data on social mobility 
-and poverty. <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/business_mob_pov.ipynb">Here<a/> is the Colab notebook. There is a positive correlation between new business registrations and SMI. As anticipated, Cyprus, Luxemburg and Malta, European countries with low tax rates, have more business 
-  registrations for their SMI relative to other states in the sample. </p>
-
+<p> New business registrations data was downloaded from the World Bank website and edited in Colab. It is then merged with the data on social mobility and poverty. <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/business_mob_pov.ipynb">Here<a/> is the Colab notebook. 
+There is a positive correlation between new business registrations and SMI. As anticipated, Cyprus, Luxemburg and Malta, countries with low tax rates, have more business registrations for their SMI relative to other states in the sample. </p>
    
     
     <p class=sub><b><span style="color:rgb(255, 237, 61)">Conclusion: </span></b><p>
     
-<p> Several entrepreneurship indicators have been plotted against Global Social Mobility Index and poverty level. The research has identified a negative relationship between the cost of starting a business and SMI, 
-a positive correlation between the cost of starting a business and poverty, a positive correlation between the Global Entrepreneurship Index and SMI and a positive correlation between business registrations and SMI. 
-Therefore, there is a clear positive correlation between social mobility and a favorable business climate. </p>
+<p> Several entrepreneurship indicators have been plotted against SMI and poverty level. The research has identified a negative relationship between the cost of starting a business and SMI, a positive correlation between the cost of 
+starting a business and poverty, a positive correlation between the Global Entrepreneurship Index and SMI and a positive correlation between business registrations and SMI. Therefore, there is a clear positive correlation between social mobility 
+and a favorable business climate.</p>
  
-<p> This project did not intend to establish whether there is a causal relationship between the indicators, which should be investigated in further research. Furthermore, the relationship between social mobility and 
-entrepreneurship may be subject to omitted variable bias from not accounting for variables like GDP per capita or country’s political stability. This should be considered in research aiming to estimate causal relationship 
-between the two indicators. </p>
-
+<p> This project does not intend to establish causal connections between the indicators, which may be investigated in further research. Furthermore, the relationship between social mobility and entrepreneurship may be subject to omitted variable bias from not accounting for variables like GDP per capita or political stability. 
+This should be considered in research aiming to estimate causal relationship between the two. </p>
    
-
 
 </body>
 </html>
