@@ -9,10 +9,8 @@
   },
 
  "title": {
-    "text": "Figure 6: Social Mobility Index and Business Registrations",
-    "subtitle": [
-      "New business registrations per 1,000 people in 2018.",
-      "Source: World Bank, World Economic Forum (2020)"],
+    "text": "Figure 6: Social Mobility Index and New Business Registrations",
+    "subtitle": "Source: World Bank (2018), World Economic Forum (2020)",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start"
