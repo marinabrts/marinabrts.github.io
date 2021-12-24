@@ -79,7 +79,7 @@ Japan scoring over 70. </p>
     
     <p> Find the Colab notebook for Figure 1 <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/socMob_Pov.ipynb">here</a>. SMI is scraped from the Business Insider website (
 <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/social_mob_ind_scraping.ipynb">here</a> is the Colab notebook), and poverty data is scraped from Wikipedia (<a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/poverty1.ipynb">here</a>
- is the Colab notebook). To be joined together, data frames must have a common column name, so I rename one column and join the data frames. Poverty values are in percentage and are not recognised as numeric in Vega-Lite. 
+ is the Colab notebook). Poverty values are in percentage and are not recognised as numeric in Vega-Lite. 
 I remove the “%” sign, change the data type to numeric and create a new data frame. Then I join it with the original data frame, as they have one column in common. </p>
       
     
@@ -92,8 +92,8 @@ I remove the “%” sign, change the data type to numeric and create a new data
  </div>   
    
     <p> The data for Figure 2 is downloaded using the World Bank library in Python. The Colab notebook is availible <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/CostOverTime.ipynb">here</a>. 
-As evident from Figure 2, cost of opening a business in states with the lowest SMI (Guatemala, Senegal, Cameroon) has been declining significantly over the last two decades. Meanwhile, for countries with the highest SMI (Canada, UK, Denmark), 
-it fluctuated but stayed below 4% of income per capita. Clearly, there is a negative relationship between SMI and cost of opening a business. </p> 
+As evident from Figure 2, the cost of opening a business in states with the lowest SMI (Guatemala, Senegal, Cameroon) has been declining significantly over the last two decades. Meanwhile, for countries with the highest SMI (Canada, UK, Denmark), 
+it fluctuated but stayed below 4% of income per capita. Clearly, there is a negative relationship between SMI and the cost of opening a business. </p> 
     
 <!-- Chart 18 -- Days and cost to start a business -->
  <div class="chart" id="chart18">
@@ -103,7 +103,7 @@ it fluctuated but stayed below 4% of income per capita. Clearly, there is a nega
       </script>
  </div>
    
-    <p> Judging from Figure 3, there is some positive relationship between cost of starting a business and days it takes. Most Western, some Asian and South American states follow this pattern. However, there are many outliers, 
+    <p> Judging from Figure 3, there is some positive relationship between the cost of starting a business and the days it takes. Most Western, some Asian and South American states follow this pattern. However, there are many outliers, 
 such as South Africa, where it takes almost the longest to start a business, but it costs the least. </p>
     
     
@@ -121,8 +121,8 @@ See the Colab notebooks for <a href="https://github.com/marinabrts/marinabrts.gi
       </script>
  </div>
 
- <p> Poverty level is negatively correlated with SMI, which is evident from <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/Reg_SMIxPOV.ipynb">this</a> regression analysis. 
-A positive relationship between cost of starting a business and proportion of population in poverty is clear from Figure 4. </p>
+ <p> The poverty level is negatively correlated with SMI, which is evident from <a href="https://github.com/marinabrts/marinabrts.github.io/blob/main/Reg_SMIxPOV.ipynb">this</a> regression analysis. 
+A positive relationship between the cost of starting a business and the proportion of population in poverty is clear from Figure 4. </p>
 
 
    
