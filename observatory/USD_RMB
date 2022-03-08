@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "USD/RMB exchange rate",
+
+   "title": {
+    "text": "USD/RMB Exchange Rate",
+    "subtitle":"Source: FiscalData.Treasury.gov API.",
+    "anchor": "centre",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start"
+    },
+  
+
+   
+  "data": {
+      "url":"https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/rates_of_exchange?fields=record_date,country,exchange_rate&filter=country_currency_desc:eq:China-Renminbi,record_date:gte:2000-01-01?format=json",
+      "format":{
+        "type":"json",
+        "property":"data"
+      }},
+  
+
+  "height": 300,
+  "width": 300,
+
+
+"mark": {"type": "line", "color": "#FF66B2"
+},
+  "encoding": {
+  "x": {
+      "field": "record_date", 
+      "type": "temporal",
+      "title": null,
+       "axis": {"labelAngle": 270}
+       },
+
+  "y": {"field": "exchange_rate",
+    "type": "quantitative",
+"scale":{"domain":[5, 9]},
+    "title": null
+    }
+  }
+  
+}
