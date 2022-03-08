@@ -6,10 +6,9 @@
    "title": {
     "text": "USD/RMB Exchange Rate",
     "subtitle":"Source: FiscalData.Treasury.gov API.",
-    "anchor": "centre",
+    "anchor": "middle",
     "subtitleFontStyle":"italic",
-    "subtitleFontSize":10,
-    "anchor": "start"
+    "subtitleFontSize":11,
     },
   
 
