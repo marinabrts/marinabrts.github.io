@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "USD/EUR exchange rate",
+
+   "title": {
+    "text": "USD/EUR Exchange Rate",
+    "subtitle":"Source: FiscalData.Treasury.gov API.",
+    "anchor": "middle",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":11
+    },
+  
+
+   
+  "data": {
+      "url":"https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/rates_of_exchange?fields=record_date,country,exchange_rate&filter=country_currency_desc:eq:Euro%20Zone-Euro,record_date:gte:1999-01-01?format=json",
+      "format":{
+        "type":"json",
+        "property":"data"
+      }},
+  
+
+  "height": 300,
+  "width": 300,
+
+
+"mark": {"type": "line", "color": "#7F00FF"
+},
+  "encoding": {
+  "x": {
+      "field": "record_date", 
+      "type": "temporal",
+      "title": null,
+       "axis": {"labelAngle": 270}
+       },
+
+  "y": {"field": "exchange_rate",
+    "type": "quantitative",
+"scale":{"domain":[0.4, 1.5]},
+    "title": null
+    }
+  }
+  
+}
