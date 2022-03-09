@@ -5,7 +5,7 @@
 
    "title": {
     "text": "USD/EUR Exchange Rate",
-    "subtitle":"Source: FiscalData.Treasury.gov API.",
+    "subtitle":"Source: FiscalData.Treasury.gov API",
     "anchor": "middle",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":11
@@ -35,9 +35,14 @@
        "axis": {"labelAngle": 270}
        },
 
-  "y": {"field": "exchange_rate",
+
+  "tooltip": [
+      {"field": "time_period_start", "type": "temporal", "title": "Date"},
+      {"field": "price_close", "type": "quantitative", "title": "Price"}],
+
+    "y": {"field": "exchange_rate",
     "type": "quantitative",
-"scale":{"domain":[0.4, 1.5]},
+"scale":{"domain":[0.5, 1.4]},
     "title": null
     }
   }
