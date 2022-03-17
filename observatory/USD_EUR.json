@@ -14,10 +14,10 @@
 
    
   "data": {
-      "url":"https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/rates_of_exchange?fields=record_date,country,exchange_rate&filter=country_currency_desc:eq:Euro%20Zone-Euro,record_date:gte:1999-01-01?format=json",
+      "url":"https://www.alphavantage.co/query?function=FX_WEEKLY&from_symbol=USD&to_symbol=EUR&apikey=98LYETTF4F8DMBDM",
       "format":{
         "type":"json",
-        "property":"data"
+        "property":"Time Series FX (Weekly)"
       }},
   
 
@@ -25,22 +25,19 @@
   "width": 300,
 
 
-"mark": {"type": "line", "color": "#7F00FF"
+"mark": {"type": "line", "color": "#9ef300"
 },
   "encoding": {
   "x": {
-      "field": "record_date", 
+      "field": "", 
       "type": "temporal",
+      "scale":{"domain":[0.5, 1.4]},
       "title": null,
        "axis": {"labelAngle": 270}
        },
 
 
-  "tooltip": [
-      {"field": "time_period_start", "type": "temporal", "title": "Date"},
-      {"field": "price_close", "type": "quantitative", "title": "Price"}],
-
-    "y": {"field": "exchange_rate",
+    "y": {"field": "4.close",
     "type": "quantitative",
 "scale":{"domain":[0.5, 1.4]},
     "title": null
