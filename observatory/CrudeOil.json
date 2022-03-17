@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "Crude Oil Price",
+
+   "title": {
+    "text": "Crude Oil Price",
+    "subtitle":"Price in contemporary USD; Source: Nasdaq Data",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":11,
+    "anchor": "middle"
+    },
+  
+
+   
+  "data": {
+      "url":"https://data.nasdaq.com/api/v3/datasets/BP/CRUDE_OIL_PRICES.json?start_date=1940-01-01&api_key=hCyNURMCRsVC3qASsmDy&",
+      "format":{
+        "type":"json",
+        "property":"dataset.data"
+      }},
+  
+
+  "height": 300,
+  "width": 300,
+
+
+"mark": {"type": "area", "color": "#8E5DEF"
+},
+  "encoding": {
+  "x": {
+      "field": "0", 
+      "type": "temporal",
+      "title": null,
+       "axis": {"labelAngle": 270}
+       },
+
+  "tooltip": [
+      {"field": "0", "type": "temporal", "title": "Date"},
+      {"field": "1", "type": "quantitative", "title": "Value (USD)","format": ".2f"}],
+
+  "y": {"field": "1",
+    "type": "quantitative",
+    "title": ""
+    }
+  }
+  
+}
