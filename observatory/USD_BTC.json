@@ -24,7 +24,7 @@
   "width": 300,
 
 
-"mark": {"type": "line", "color": "#FF8000"
+"mark": {"type": "area", "color": "#FFC522"
 },
   "encoding": {
   "x": {
