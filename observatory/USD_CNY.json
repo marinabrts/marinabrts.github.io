@@ -4,7 +4,7 @@
   "description": "USD/CNY exchange rate",
 
    "title": {
-    "text": "USD/CNY Exchange Rate",
+    "text": "USD/CNY Exchange Rate (Weekly)",
     "subtitle":"Source: Alphavantage API",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":11,
