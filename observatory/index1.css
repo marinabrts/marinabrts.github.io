@@ -1,0 +1,129 @@
+body{
+
+    background-color: #000000;
+    margin: 3%;
+}
+
+h1{
+    font-size: 90px; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
+    font-family: 'Bevan', cursive;
+    margin: 0;
+}
+
+h3{
+    font-size: 15px;
+    color: black;
+    font-family: 'Domine', serif;
+    text-align: center;
+}
+
+hr {
+  border:none;
+  border-top:6px dotted #FFF01F; 
+  color:#FFF01F;
+  background-color: transparent;
+  height:3px;
+  width:100%;
+}
+
+
+p{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    line-hight: 1.2;
+}
+
+
+.conference {
+    font-size: 12px;
+    color: white;
+    font-weight: lighter;
+    text-align: left;
+    margin: 18px 40px 18px;
+}
+
+.text {
+    font-size: 50px;
+    color: #FFFFFF;
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
+    font-family: 'Bevan', cursive;
+    margin: 20px, 20px;
+    text-decoration: normal;
+    animation: blinker 2s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+.sub {
+    font-size: 30px;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bolder;
+    text-decoration: normal;
+    margin: 20px, 50px
+}
+
+.name {
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.yellow {
+    color: #FCE343;
+}
+
+.white {
+    color: white;
+}
+
+
+.bodywrap1{
+    background-color: #A0A0A0;
+   width: 100%;
+    margin: auto;
+    align: center;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.chart{
+    width: 470px;
+    border-width: 10px;
+    border-hight: 10px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    margin: 30px;
+}
+
+
+.w3-rounded {
+  border-radius: 8px;
+  width: 450px;
+  border-width: 10px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  margin: 30px;
+}
