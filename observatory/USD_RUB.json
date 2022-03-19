@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "USD/RUB exchange rate",
+
+   "title": {
+    "text": "USD/RUB Exchange Rate (Weekly)",
+    "subtitle":"Source: Alphavantage API",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":11,
+    "anchor": "middle"
+    },
+  
+
+   
+  "data": {
+      "url":"https://www.alphavantage.co/query?function=FX_WEEKLY&from_symbol=USD&to_symbol=RUB&apikey=98LYETTF4F8DMBDM&datatype=csv",
+      "format":{
+        "type":"csv"
+      }},
+
+  "height": 300,
+  "width": 300,
+
+
+"mark": {"type": "line", "color": "#122b39"},
+
+  "encoding": {
+  "x": {
+      "field": "timestamp", 
+      "type": "temporal",
+      "title": null,
+       "axis": {"labelAngle": 270}
+       },
+
+  "y": {"field": "close",
+    "type": "quantitative",
+    "scale":{"domain":[20, 140]},
+    "title": null
+    },
+
+    "tooltip": [
+      {"field": "timestamp", "type": "temporal", "title": "Date"},
+      {"field": "close", "type": "quantitative", "title": "Exchange Rate","format": ".2f"}]
+  }
+  
+}
+
+
