@@ -1,0 +1,48 @@
+ {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "USD/CNY exchange rate",
+
+   "title": {
+    "text": "USD/CNY Exchange Rate",
+    "subtitle":"Source: Alphavantage API",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":11,
+    "anchor": "middle"
+    },
+  
+
+   
+  "data": {
+      "url":"https://www.alphavantage.co/query?function=FX_WEEKLY&from_symbol=USD&to_symbol=CNY&apikey=98LYETTF4F8DMBDM&datatype=csv",
+      "format":{
+        "type":"csv"
+      }},
+
+  "height": 300,
+  "width": 300,
+
+
+"mark": {"type": "line", "color": "#36b7b4"},
+
+  "encoding": {
+  "x": {
+      "field": "timestamp", 
+      "type": "temporal",
+      "title": null,
+       "axis": {"labelAngle": 270}
+       },
+
+  "y": {"field": "close",
+    "type": "quantitative",
+    "scale":{"domain":[5, 9]},
+    "title": null
+    },
+
+    "tooltip": [
+      {"field": "timestamp", "type": "temporal", "title": "Date"},
+      {"field": "close", "type": "quantitative", "title": "Exchange Rate","format": ".2f"}]
+  }
+  
+}
+
