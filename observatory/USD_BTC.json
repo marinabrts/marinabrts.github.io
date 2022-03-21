@@ -28,14 +28,14 @@
 },
   "encoding": {
   "x": {
-      "field": "time_period_end", 
+      "field": "time_period_start", 
       "type": "temporal",
       "title": null,
        "axis": {"labelAngle": 270}
        },
 
   "tooltip": [
-      {"field": "time_period_end", "type": "temporal", "title": "Date"},
+      {"field": "time_period_start", "type": "temporal", "title": "Date"},
       {"field": "price_close", "type": "quantitative", "title": "Price"}],
 
   "y": {"field": "price_close",
