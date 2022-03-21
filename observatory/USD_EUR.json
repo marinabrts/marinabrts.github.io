@@ -1,10 +1,10 @@
  {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "description": "USD/GBP exchange rate",
+  "description": "USD/EUR exchange rate",
 
    "title": {
-    "text": "USD/GBP Exchange Rate (Weekly)",
+    "text": "USD/EUR Exchange Rate (Weekly)",
     "subtitle":"Source: Alphavantage API",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":11,
