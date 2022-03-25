@@ -1,11 +1,10 @@
-{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ {"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "description": "Crude Oil Price",
+  "description": "Spot Crude Oil Price (WTI)",
 
    "title": {
-    "text": "Crude Oil Price",
-    "subtitle":"Price in contemporary USD; Source: Nasdaq Data",
+    "text": "Spot Crude Oil Price (WTI)",
+    "subtitle":"Monthly; Dollars per Barrel; Source: FRED",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":11,
     "anchor": "middle"
@@ -14,10 +13,10 @@
 
    
   "data": {
-      "url":"https://data.nasdaq.com/api/v3/datasets/BP/CRUDE_OIL_PRICES.json?start_date=1940-01-01&api_key=hCyNURMCRsVC3qASsmDy&",
+      "url":"https://api.allorigins.win/raw?url=https%3A%2F%2Fapi.stlouisfed.org%2Ffred%2Fseries%2Fobservations%3Fseries_id%3DWTISPLC%26observation_start%3D1971-01-01%26api_key%3D8bafa8dfa8108a927884c7ab2b9c3372%26file_type%3Djson%0A",
       "format":{
         "type":"json",
-        "property":"dataset.data"
+        "property":"observations"
       }},
   
 
@@ -25,23 +24,23 @@
   "width": 300,
 
 
-"mark": {"type": "area", "color": "#8E5DEF"
+"mark": {"type": "line", "color": "#5c267b"
 },
   "encoding": {
   "x": {
-      "field": "0", 
+      "field": "date", 
       "type": "temporal",
       "title": null,
        "axis": {"labelAngle": 270}
        },
+        "tooltip": [
+      {"field": "date", "type": "temporal", "title": "Date"},
+      {"field": "value", "type": "quantitative", "title": "Price (USD)","format": ".2f"}],
 
-  "tooltip": [
-      {"field": "0", "type": "temporal", "title": "Date"},
-      {"field": "1", "type": "quantitative", "title": "Value (USD)","format": ".2f"}],
 
-  "y": {"field": "1",
+  "y": {"field": "value",
     "type": "quantitative",
-    "title": ""
+    "title": null
     }
   }
   
