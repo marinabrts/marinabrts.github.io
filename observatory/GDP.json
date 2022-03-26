@@ -5,6 +5,7 @@
   "title": {
     "text": "GDP (in billion USD)",
     "subtitle": "Year: 2020; Source: The World Bank, World Development Indicators",
+    "subtitleFontSize": 10,
     "subtitleFontStyle":"italic"
   },
 
