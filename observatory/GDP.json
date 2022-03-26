@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "Social Mobility Index Around the World",
+  "title": {
+    "text": "GDP (in billion USD)",
+    "subtitle": "Year: 2020; Source: The World Bank, World Development Indicators",
+    "subtitleFontStyle":"italic"
+  },
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/observatory/sectoral_GDP.csv",
+    "format": {"type": "csv"}
+  },
+    
+ "height": 600,
+ "width": 400,
+
+"mark": {"type": "bar"},
+
+"selection": {
+    "Region": {
+      "type": "single",
+      "fields": ["Region"],
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Europe and Central Asia",
+          "Middle East and North Africa",
+          "East Asia and Pacific",
+          "Sub-Saharan Africa",
+          "Latin America and Caribbean",
+          "North America"
+        ],
+        "name": "Region"
+      }
+    }
+  },
+
+"transform": [
+    {"calculate": "datum.GDP/1000000000", "as": "billions"},
+    {"filter": {"selection": "Region"}}
+    ],
+
+
+  "encoding": {
+  "y": {
+      "field": "Country Name", 
+      "type": "nominal", 
+      "title": "",
+      "axis": {"labelAngle": 0,"labelFontSize": 9}},
+
+
+  "x": {"field": "billions",
+    "type": "quantitative",
+    "title": "Billion USD"},
+
+    "color": {"field": "Region", "type": "nominal", "title": "Region:", "scale": {"scheme":"set2"}},
+
+    "tooltip": [
+      {"field": "Country Name", "type": "nominal", "title": "Country"},
+      {"field": "billions", "type": "nominal", "title": "GDP (billion USD)", "format": ".2f"}]}
+}
