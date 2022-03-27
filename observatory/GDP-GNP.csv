@@ -1,0 +1,59 @@
+﻿Country Name,Country Code,gdp,gnp,Region
+Denmark,DNK,3.56085E+11,3.68106E+11,Europe and Central Asia
+Germany,DEU,3.84641E+12,3.95347E+12,Europe and Central Asia
+Ireland,IRL,4.25889E+11,3.24083E+11,Europe and Central Asia
+Kazakhstan,KAZ,1.71082E+11,1.56099E+11,Europe and Central Asia
+Spain,ESP,1.28148E+12,1.28902E+12,Europe and Central Asia
+United Kingdom,GBR,2.7598E+12,2.72317E+12,Europe and Central Asia
+Turkey,TUR,7.19955E+11,7.11145E+11,Europe and Central Asia
+Russian Federation,RUS,1.4835E+12,1.4487E+12,Europe and Central Asia
+Poland,POL,5.96624E+11,5.7499E+11,Europe and Central Asia
+Netherlands,NLD,9.13865E+11,8.97973E+11,Europe and Central Asia
+Greece,GRC,1.88835E+11,1.88029E+11,Europe and Central Asia
+Italy,ITA,1.88871E+12,1.91192E+12,Europe and Central Asia
+Czech Republic,CZE,2.45339E+11,2.36797E+11,Europe and Central Asia
+France,FRA,2.63032E+12,2.67181E+12,Europe and Central Asia
+Estonia,EST,30650285472,30588229009,Europe and Central Asia
+Uzbekistan,UZB,59929951114,59739217564,Europe and Central Asia
+Iraq,IRQ,1.66757E+11,1.64947E+11,Middle East and North Africa
+"Egypt, Arab Rep.",EGY,3.65253E+11,3.53899E+11,Middle East and North Africa
+Israel,ISR,4.07101E+11,4.02948E+11,Middle East and North Africa
+Lebanon,LBN,31735217785,31004850691,Middle East and North Africa
+Saudi Arabia,SAU,7.00118E+11,7.15551E+11,Middle East and North Africa
+United Arab Emirates,ARE,3.58869E+11,3.58406E+11,Middle East and North Africa
+"Iran, Islamic Rep.",IRN,2.03471E+11,2.02972E+11,Middle East and North Africa
+Jordan,JOR,43697659296,43573532535,Middle East and North Africa
+Qatar,QAT,1.44411E+11,1.41359E+11,Middle East and North Africa
+Afghanistan,AFG,20116137326,20304823185,South Asia
+Bangladesh,BGD,3.23057E+11,3.38848E+11,South Asia
+India,IND,2.66025E+12,2.63541E+12,South Asia
+Singapore,SGP,3.39998E+11,2.98439E+11,East Asia & Pacific
+Thailand,THA,5.01644E+11,4.87335E+11,East Asia & Pacific
+Vietnam,VNM,2.71158E+11,2.55541E+11,East Asia & Pacific
+Philippines,PHL,3.61489E+11,3.89324E+11,East Asia & Pacific
+New Zealand,NZL,2.10701E+11,2.03803E+11,East Asia & Pacific
+Pakistan,PAK,2.6261E+11,2.57151E+11,East Asia & Pacific
+Chad,TCD,10829076802,9948225336,Sub-Saharan Africa
+China,CHN,1.47227E+13,1.46183E+13,East Asia & Pacific
+Cote d'Ivoire,CIV,61348579465,59471452570,Sub-Saharan Africa
+Ethiopia,ETH,1.07645E+11,1.07062E+11,Sub-Saharan Africa
+Mali,MLI,17465392916,16749289498,Sub-Saharan Africa
+Malaysia,MYS,3.37006E+11,3.30206E+11,East Asia & Pacific
+Nigeria,NGA,4.32294E+11,4.16521E+11,Sub-Saharan Africa
+Kenya,KEN,1.01014E+11,99325669699,Sub-Saharan Africa
+Japan,JPN,5.05776E+12,5.14635E+12,East Asia & Pacific
+Sudan,SDN,21329109522,19857202368,Sub-Saharan Africa
+South Africa,ZAF,3.35442E+11,3.29819E+11,Sub-Saharan Africa
+Brazil,BRA,1.44473E+12,1.41707E+12,Latin America & Caribbean
+Bolivia,BOL,36572764863,36136680933,Latin America & Caribbean
+Argentina,ARG,3.89288E+11,3.7909E+11,Latin America & Caribbean
+Chile,CHL,2.5294E+11,2.42005E+11,Latin America & Caribbean
+Colombia,COL,2.71438E+11,2.66094E+11,Latin America & Caribbean
+Dominican Republic,DOM,78844702329,74984131332,Latin America & Caribbean
+Honduras,HND,23662231634,22047103271,Latin America & Caribbean
+Peru,PER,2.02014E+11,1.95844E+11,Latin America & Caribbean
+Panama,PAN,53977036995,52307035334,Latin America & Caribbean
+Mexico,MEX,1.07392E+12,1.03704E+12,Latin America & Caribbean
+United States,USA,2.0953E+13,2.12866E+13,North America
+Canada,CAN,1.64542E+12,1.62705E+12,North America
+Luxembourgh,LUX,73353132793,51803961862,Europe and Central Asia
