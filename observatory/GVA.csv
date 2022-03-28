@@ -41,13 +41,6 @@ Canada,2019,Construction (ISIC F),123252874140.523,North America,1622650477007.9
 Canada,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",206729459075.085,North America,1622650477007.99
 Canada,2019,"Transport, storage and communication (ISIC I)",126031665613.41,North America,1622650477007.99
 Canada,2019,Other Activities (ISIC J-P),845804640777.595,North America,1622650477007.99
-Central African Republic,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",709776276.447936,Sub-Saharan Africa,2127433333.4613
-Central African Republic,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",431578365.944039,Sub-Saharan Africa,2127433333.4613
-Central African Republic,2019,Manufacturing (ISIC D),414443237.414019,Sub-Saharan Africa,2127433333.4613
-Central African Republic,2019,Construction (ISIC F),33943738.0653529,Sub-Saharan Africa,2127433333.4613
-Central African Republic,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",406215638.863117,Sub-Saharan Africa,2127433333.4613
-Central African Republic,2019,"Transport, storage and communication (ISIC I)",50744247.3791619,Sub-Saharan Africa,2127433333.4613
-Central African Republic,2019,Other Activities (ISIC J-P),495175066.761692,Sub-Saharan Africa,2127433333.4613
 Chad,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",3508137164.32949,Sub-Saharan Africa,12328998445.225
 Chad,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",2197072816.34885,Sub-Saharan Africa,12328998445.225
 Chad,2019,Manufacturing (ISIC D),1364897312.83104,Sub-Saharan Africa,12328998445.225
@@ -146,13 +139,6 @@ Greece,2019,Construction (ISIC F),2886781082.1098,Europe and Central Asia,177730
 Greece,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",35300234110.6901,Europe and Central Asia,177730337892.572
 Greece,2019,"Transport, storage and communication (ISIC I)",18765868752.6666,Europe and Central Asia,177730337892.572
 Greece,2019,Other Activities (ISIC J-P),88568842364.3293,Europe and Central Asia,177730337892.572
-Honduras,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",2698084134.25325,Latin America and Caribbean,23959648849.6578
-Honduras,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",5266695026.09824,Latin America and Caribbean,23959648849.6578
-Honduras,2019,Manufacturing (ISIC D),4102472217.91355,Latin America and Caribbean,23959648849.6578
-Honduras,2019,Construction (ISIC F),1526839283.64499,Latin America and Caribbean,23959648849.6578
-Honduras,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",4293222062.94651,Latin America and Caribbean,23959648849.6578
-Honduras,2019,"Transport, storage and communication (ISIC I)",1762271514.83743,Latin America and Caribbean,23959648849.6578
-Honduras,2019,Other Activities (ISIC J-P),8412536827.87738,Latin America and Caribbean,23959648849.6578
 India,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",481970180752.841,South Asia,2621606271043.28
 India,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",504366448442.036,South Asia,2621606271043.28
 India,2019,Manufacturing (ISIC D),385156291745.211,South Asia,2621606271043.28
@@ -251,13 +237,6 @@ Mongolia,2019,Construction (ISIC F),529762126.96852,East Asia and Pacific,124902
 Mongolia,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",1481698864.41286,East Asia and Pacific,12490212365.3783
 Mongolia,2019,"Transport, storage and communication (ISIC I)",893981276.820668,East Asia and Pacific,12490212365.3783
 Mongolia,2019,Other Activities (ISIC J-P),3220595368.12825,East Asia and Pacific,12490212365.3783
-Morocco,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",14559414790.0287,Middle East and North Africa,106025780543.862
-Morocco,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",23931702070.2153,Middle East and North Africa,106025780543.862
-Morocco,2019,Manufacturing (ISIC D),17857298644.938,Middle East and North Africa,106025780543.862
-Morocco,2019,Construction (ISIC F),6424509836.53592,Middle East and North Africa,106025780543.862
-Morocco,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",12637832823.8689,Middle East and North Africa,106025780543.862
-Morocco,2019,"Transport, storage and communication (ISIC I)",7296292477.46037,Middle East and North Africa,106025780543.862
-Morocco,2019,Other Activities (ISIC J-P),41176028545.7533,Middle East and North Africa,106025780543.862
 Netherlands,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",14889010980.3921,Europe and Central Asia,811574240627.45
 Netherlands,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",119548682901.961,Europe and Central Asia,811574240627.45
 Netherlands,2019,Manufacturing (ISIC D),98068206007.843,Europe and Central Asia,811574240627.45
@@ -356,13 +335,6 @@ Sudan,2019,Construction (ISIC F),1248010855.30779,Middle East and North Africa,3
 Sudan,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",5762068596.85377,Middle East and North Africa,34895362319.7286
 Sudan,2019,"Transport, storage and communication (ISIC I)",3083625816.60681,Middle East and North Africa,34895362319.7286
 Sudan,2019,Other Activities (ISIC J-P),11361440518.8982,Middle East and North Africa,34895362319.7286
-Switzerland,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",4613561942.2485,Europe and Central Asia,711740402382.395
-Switzerland,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",147507637425.767,Europe and Central Asia,711740402382.395
-Switzerland,2019,Manufacturing (ISIC D),133354655038.411,Europe and Central Asia,711740402382.395
-Switzerland,2019,Construction (ISIC F),35080836401.738,Europe and Central Asia,711740402382.395
-Switzerland,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",119795654871.057,Europe and Central Asia,711740402382.395
-Switzerland,2019,"Transport, storage and communication (ISIC I)",60244099043.6706,Europe and Central Asia,711740402382.395
-Switzerland,2019,Other Activities (ISIC J-P),344498612696.908,Europe and Central Asia,711740402382.395
 Thailand,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",44286410028.4788,East Asia and Pacific,544263738706.254
 Thailand,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",169384172073.408,East Asia and Pacific,544263738706.254
 Thailand,2019,Manufacturing (ISIC D),139485280462.85,East Asia and Pacific,544263738706.254
