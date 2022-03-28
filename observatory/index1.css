@@ -100,8 +100,8 @@ p{
 
 
 .chart{
-    width: 400px;
-    border-width: 20px;
+    width: 350px;
+    border-width: 10px;
     border-hight: 10px;
     background-color: white;
     border-style: solid;
@@ -111,6 +111,17 @@ p{
     align: center;
 }
 
+.chart1{
+    width: 450px;
+    border-width: 10px;
+    border-hight: 10px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    margin: 30px;
+    align: right;
+}
 
 .w3-rounded {
   border-radius: 8px;
