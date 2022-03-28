@@ -1,10 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "description": "Social Mobility Index Around the World",
+  "description": "GDP Composition by Sector",
   "title": {
     "text": "GDP Composition by Sector",
-    "subtitle": "Year: 2020; Source: The World Bank, World Development Indicators",
+    "subtitle": "Current USD; Year: 2020; Source: The World Bank, World Development Indicators",
     "subtitleFontSize": 10,
     "subtitleFontStyle":"italic"
   },
