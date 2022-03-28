@@ -100,7 +100,7 @@ p{
 
 
 .chart{
-    width: 350px;
+    width: 370px;
     border-width: 10px;
     border-hight: 10px;
     background-color: white;
@@ -113,13 +113,14 @@ p{
 
 .chart1{
     width: 450px;
+    hight: 350px;
     border-width: 10px;
     border-hight: 10px;
     background-color: white;
     border-style: solid;
     border-radius: 10px;
     border-color: white;
-    margin: 30px;
+    margin: 20px;
     align: left;
 }
 
