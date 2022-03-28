@@ -1,0 +1,72 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "Social Mobility Index Around the World",
+  "title": {
+    "text": "GDP Composition by Sector",
+    "subtitle": "Year: 2020; Source: The World Bank, World Development Indicators",
+    "subtitleFontSize": 10,
+    "subtitleFontStyle":"italic"
+  },
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/observatory/sectoral_GDP.csv",
+    "format": {"type": "csv"}
+  },
+
+    
+ "height": 500,
+ "width": 350,
+
+"mark": {"type": "bar"},
+
+"selection": {
+    "Region": {
+      "type": "single",
+      "fields": ["Region"],
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Europe and Central Asia",
+          "Middle East and North Africa",
+          "East Asia and Pacific",
+          "Sub-Saharan Africa",
+          "Latin America and Caribbean",
+          "North America"
+        ],
+        "name": "Region"
+      }
+    }
+  },
+
+
+"transform": [
+{"fold": ["Agriculture, forestry and fishing","Industry (including construction)","Manufacturing","Services"], "as": ["Sector", "Value"]},
+{"calculate": "datum.GDP/1000000000", "as": "GDP (billion USD)"},
+{"filter": {"selection": "Region"}}],
+
+  "encoding": {
+  "y": {
+      "field": "Country Name", 
+      "type": "nominal", 
+      "title": "",
+      "axis": {"labelAngle": 0,"labelFontSize": 9}},
+
+
+  "x": {
+    "field": "Value",
+    "type": "quantitative",
+    "stack":  "normalize",
+    "title": "Share of GDP"
+  },
+
+  "color": {"field": "Sector", "scale": {"range": ["#179fdb", "#00a767", "#f4c245", "#e6224b"]}, "title": "Sector (% of GDP)"},
+
+
+   "tooltip": [
+      {"field": "Country Name", "type": "nominal", "title": "Country"},
+      {"field": "Value", "type": "quantitative", "title": "Value (%GDP)", "format": ".2f"},
+      {"field": "GDP (billion USD)", "type": "quantitative", "title": "GNP (billion USD)", "format": ".2f"}]
+  }
+}
