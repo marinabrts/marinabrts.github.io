@@ -5,8 +5,9 @@
   "title": {
     "text": "GDP Around the World (in billion USD)",
     "subtitle": "Current USD; Year: 2020; Source: The World Bank, World Development Indicators",
-    "subtitleFontSize": 10,
-    "subtitleFontStyle":"italic"
+  "fontSize": 11,
+  "subtitleFontSize": 10,
+  "subtitleFontStyle":"italic"
   },
 
   "data": {
@@ -15,7 +16,7 @@
   },
     
  "height": 350,
- "width": 180,
+ "width": 150,
 
 "mark": {"type": "bar"},
 
@@ -26,6 +27,7 @@
       "bind": {
         "input": "select",
         "options": [
+          null,
           "Europe and Central Asia",
           "Middle East and North Africa",
           "East Asia and Pacific",
