@@ -1,0 +1,465 @@
+Country or Area,Year,Item,Value,
+Afghanistan,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",378773321235,South Asia
+Afghanistan,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",161174173598,South Asia
+Afghanistan,2019,Manufacturing (ISIC D),103506328821,South Asia
+Afghanistan,2019,Construction (ISIC F),45423326072,South Asia
+Afghanistan,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",161358037639,South Asia
+Afghanistan,2019,"Transport, storage and communication (ISIC I)",116882129759,South Asia
+Afghanistan,2019,Other Activities (ISIC J-P),536986149753,South Asia
+Afghanistan,2019,Total Value Added,1400597138054,South Asia
+Argentina,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",1305793745144,Latin America and Caribbean
+Argentina,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",4197620671583,Latin America and Caribbean
+Argentina,2019,Manufacturing (ISIC D),2788782161618,Latin America and Caribbean
+Argentina,2019,Construction (ISIC F),823149083677,Latin America and Caribbean
+Argentina,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",3305078928080,Latin America and Caribbean
+Argentina,2019,"Transport, storage and communication (ISIC I)",1279289928628,Latin America and Caribbean
+Argentina,2019,Other Activities (ISIC J-P),7068651561983,Latin America and Caribbean
+Argentina,2019,Total Value Added,17979583919095,Latin America and Caribbean
+Armenia,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",754157800000,Europe and Central Asia
+Armenia,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",1218527700000,Europe and Central Asia
+Armenia,2019,Manufacturing (ISIC D),766320600000,Europe and Central Asia
+Armenia,2019,Construction (ISIC F),415445000000,Europe and Central Asia
+Armenia,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",886414800000,Europe and Central Asia
+Armenia,2019,"Transport, storage and communication (ISIC I)",426480700000,Europe and Central Asia
+Armenia,2019,Other Activities (ISIC J-P),2218743700000,Europe and Central Asia
+Armenia,2019,Total Value Added,5919769700000,Europe and Central Asia
+Australia,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",39738000000,East Asia and Pacific
+Australia,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",362596000000,East Asia and Pacific
+Australia,2019,Manufacturing (ISIC D),111941000000,East Asia and Pacific
+Australia,2019,Construction (ISIC F),141774000000,East Asia and Pacific
+Australia,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",194827000000,East Asia and Pacific
+Australia,2019,"Transport, storage and communication (ISIC I)",132112000000,East Asia and Pacific
+Australia,2019,Other Activities (ISIC J-P),985995000000,East Asia and Pacific
+Australia,2019,Total Value Added,1857042000000,East Asia and Pacific
+Bangladesh,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",3223938000000,South Asia
+Bangladesh,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",5574094000000,South Asia
+Bangladesh,2019,Manufacturing (ISIC D),4813589000000,South Asia
+Bangladesh,2019,Construction (ISIC F),1964030000000,South Asia
+Bangladesh,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",3479558000000,South Asia
+Bangladesh,2019,"Transport, storage and communication (ISIC I)",2260250000000,South Asia
+Bangladesh,2019,Other Activities (ISIC J-P),7697041000000,South Asia
+Bangladesh,2019,Total Value Added,24198911000000,South Asia
+Brazil,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",310714000000,Latin America and Caribbean
+Brazil,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",1137161000000,Latin America and Caribbean
+Brazil,2019,Manufacturing (ISIC D),763482000000,Latin America and Caribbean
+Brazil,2019,Construction (ISIC F),248643000000,Latin America and Caribbean
+Brazil,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",980779000000,Latin America and Caribbean
+Brazil,2019,"Transport, storage and communication (ISIC I)",503347000000,Latin America and Caribbean
+Brazil,2019,Other Activities (ISIC J-P),3176040000000,Latin America and Caribbean
+Brazil,2019,Total Value Added,6356684000000,Latin America and Caribbean
+Cameroon,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",3315703000000,Sub-Saharan Africa
+Cameroon,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",4606113000000,Sub-Saharan Africa
+Cameroon,2019,Manufacturing (ISIC D),3245968000000,Sub-Saharan Africa
+Cameroon,2019,Construction (ISIC F),1344688000000,Sub-Saharan Africa
+Cameroon,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",4485362000000,Sub-Saharan Africa
+Cameroon,2019,"Transport, storage and communication (ISIC I)",1716522000000,Sub-Saharan Africa
+Cameroon,2019,Other Activities (ISIC J-P),5567321000000,Sub-Saharan Africa
+Cameroon,2019,Total Value Added,21035709000000,Sub-Saharan Africa
+Canada,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",42020619597,North America
+Canada,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",383677440903,North America
+Canada,2019,Manufacturing (ISIC D),227208907185,North America
+Canada,2019,Construction (ISIC F),163538570397,North America
+Canada,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",274299811926,North America
+Canada,2019,"Transport, storage and communication (ISIC I)",167225621008,North America
+Canada,2019,Other Activities (ISIC J-P),1122259279976,North America
+Canada,2019,Total Value Added,2153020293558,North America
+Central African Republic,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",415865737265,Sub-Saharan Africa
+Central African Republic,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",252866517657,Sub-Saharan Africa
+Central African Republic,2019,Manufacturing (ISIC D),242826857139,Sub-Saharan Africa
+Central African Republic,2019,Construction (ISIC F),19888009961,Sub-Saharan Africa
+Central African Republic,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",238006216536,Sub-Saharan Africa
+Central African Republic,2019,"Transport, storage and communication (ISIC I)",29731613395,Sub-Saharan Africa
+Central African Republic,2019,Other Activities (ISIC J-P),290128525068,Sub-Saharan Africa
+Central African Republic,2019,Total Value Added,1246486619882,Sub-Saharan Africa
+Chad,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",2055456200328,Sub-Saharan Africa
+Chad,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",1287289159858,Sub-Saharan Africa
+Chad,2019,Manufacturing (ISIC D),799708367448,Sub-Saharan Africa
+Chad,2019,Construction (ISIC F),66401883665,Sub-Saharan Africa
+Chad,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",1656680205012,Sub-Saharan Africa
+Chad,2019,"Transport, storage and communication (ISIC I)",583331455771,Sub-Saharan Africa
+Chad,2019,Other Activities (ISIC J-P),1574537065906,Sub-Saharan Africa
+Chad,2019,Total Value Added,7223695970541,Sub-Saharan Africa
+Chile,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",7091020850183,Latin America and Caribbean
+Chile,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",43533580261347,Latin America and Caribbean
+Chile,2019,Manufacturing (ISIC D),19912297002009,Latin America and Caribbean
+Chile,2019,Construction (ISIC F),13630307877148,Latin America and Caribbean
+Chile,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",22468875042716,Latin America and Caribbean
+Chile,2019,"Transport, storage and communication (ISIC I)",13816609201112,Latin America and Caribbean
+Chile,2019,Other Activities (ISIC J-P),79139197695535,Latin America and Caribbean
+Chile,2019,Total Value Added,179679590928041,Latin America and Caribbean
+China (mainland),2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",7357690000000,East Asia and Pacific
+China (mainland),2019,"Mining, Manufacturing, Utilities (ISIC C-E)",31185860000000,East Asia and Pacific
+China (mainland),2019,Manufacturing (ISIC D),26413670000000,East Asia and Pacific
+China (mainland),2019,Construction (ISIC F),7064810000000,East Asia and Pacific
+China (mainland),2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",11355400000000,East Asia and Pacific
+China (mainland),2019,"Transport, storage and communication (ISIC I)",7585810000000,East Asia and Pacific
+China (mainland),2019,Other Activities (ISIC J-P),34101940000000,East Asia and Pacific
+China (mainland),2019,Total Value Added,98651510000000,East Asia and Pacific
+Colombia,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",67830000000000,Latin America and Caribbean
+Colombia,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",210146000000000,Latin America and Caribbean
+Colombia,2019,Manufacturing (ISIC D),115833000000000,Latin America and Caribbean
+Colombia,2019,Construction (ISIC F),66310000000000,Latin America and Caribbean
+Colombia,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",136743000000000,Latin America and Caribbean
+Colombia,2019,"Transport, storage and communication (ISIC I)",80998000000000,Latin America and Caribbean
+Colombia,2019,Other Activities (ISIC J-P),398816000000000,Latin America and Caribbean
+Colombia,2019,Total Value Added,960843000000000,Latin America and Caribbean
+Côte d'Ivoire,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",7090000000000,Sub-Saharan Africa
+Côte d'Ivoire,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",5999000000000,Sub-Saharan Africa
+Côte d'Ivoire,2019,Manufacturing (ISIC D),4042000000000,Sub-Saharan Africa
+Côte d'Ivoire,2019,Construction (ISIC F),1268000000000,Sub-Saharan Africa
+Côte d'Ivoire,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",4512662227461,Sub-Saharan Africa
+Côte d'Ivoire,2019,"Transport, storage and communication (ISIC I)",3236000000000,Sub-Saharan Africa
+Côte d'Ivoire,2019,Other Activities (ISIC J-P),9958337772538,Sub-Saharan Africa
+Côte d'Ivoire,2019,Total Value Added,32064000000000,Sub-Saharan Africa
+Cuba,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",3612000000,Latin America and Caribbean
+Cuba,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",15009000000,Latin America and Caribbean
+Cuba,2019,Manufacturing (ISIC D),12907000000,Latin America and Caribbean
+Cuba,2019,Construction (ISIC F),10382000000,Latin America and Caribbean
+Cuba,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",24256000000,Latin America and Caribbean
+Cuba,2019,"Transport, storage and communication (ISIC I)",8679000000,Latin America and Caribbean
+Cuba,2019,Other Activities (ISIC J-P),39665000000,Latin America and Caribbean
+Cuba,2019,Total Value Added,101603000000,Latin America and Caribbean
+Czechia,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",107771000000,Europe and Central Asia
+Czechia,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",1529988000000,Europe and Central Asia
+Czechia,2019,Manufacturing (ISIC D),1309868000000,Europe and Central Asia
+Czechia,2019,Construction (ISIC F),294935000000,Europe and Central Asia
+Czechia,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",680029000000,Europe and Central Asia
+Czechia,2019,"Transport, storage and communication (ISIC I)",620134000000,Europe and Central Asia
+Czechia,2019,Other Activities (ISIC J-P),1998882000000,Europe and Central Asia
+Czechia,2019,Total Value Added,5231739000000,Europe and Central Asia
+Denmark,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",28327000000,Europe and Central Asia
+Denmark,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",371875000000,Europe and Central Asia
+Denmark,2019,Manufacturing (ISIC D),317773000000,Europe and Central Asia
+Denmark,2019,Construction (ISIC F),119442000000,Europe and Central Asia
+Denmark,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",295696000000,Europe and Central Asia
+Denmark,2019,"Transport, storage and communication (ISIC I)",200573000000,Europe and Central Asia
+Denmark,2019,Other Activities (ISIC J-P),1003202000000,Europe and Central Asia
+Denmark,2019,Total Value Added,2019115000000,Europe and Central Asia
+Egypt,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",588037550000,Middle East and North Africa
+Egypt,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",1575396240000,Middle East and North Africa
+Egypt,2019,Manufacturing (ISIC D),847189780000,Middle East and North Africa
+Egypt,2019,Construction (ISIC F),320819190000,Middle East and North Africa
+Egypt,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",847905960000,Middle East and North Africa
+Egypt,2019,"Transport, storage and communication (ISIC I)",458343040000,Middle East and North Africa
+Egypt,2019,Other Activities (ISIC J-P),1379605070000,Middle East and North Africa
+Egypt,2019,Total Value Added,5170107050000,Middle East and North Africa
+Estonia,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",696400000,Europe and Central Asia
+Estonia,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",4711000000,Europe and Central Asia
+Estonia,2019,Manufacturing (ISIC D),3636400000,Europe and Central Asia
+Estonia,2019,Construction (ISIC F),1667100000,Europe and Central Asia
+Estonia,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",3505800000,Europe and Central Asia
+Estonia,2019,"Transport, storage and communication (ISIC I)",3329500000,Europe and Central Asia
+Estonia,2019,Other Activities (ISIC J-P),10178000000,Europe and Central Asia
+Estonia,2019,Total Value Added,24087800000,Europe and Central Asia
+Ethiopia,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",904989138655,Sub-Saharan Africa
+Ethiopia,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",172624990909,Sub-Saharan Africa
+Ethiopia,2019,Manufacturing (ISIC D),150530536715,Sub-Saharan Africa
+Ethiopia,2019,Construction (ISIC F),495283110782,Sub-Saharan Africa
+Ethiopia,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",427253011978,Sub-Saharan Africa
+Ethiopia,2019,"Transport, storage and communication (ISIC I)",99884391959,Sub-Saharan Africa
+Ethiopia,2019,Other Activities (ISIC J-P),472483554553,Sub-Saharan Africa
+Ethiopia,2019,Total Value Added,2572518198836,Sub-Saharan Africa
+Finland,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",5897000000,Europe and Central Asia
+Finland,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",41955000000,Europe and Central Asia
+Finland,2019,Manufacturing (ISIC D),34626000000,Europe and Central Asia
+Finland,2019,Construction (ISIC F),15359000000,Europe and Central Asia
+Finland,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",22131000000,Europe and Central Asia
+Finland,2019,"Transport, storage and communication (ISIC I)",22318000000,Europe and Central Asia
+Finland,2019,Other Activities (ISIC J-P),99866000000,Europe and Central Asia
+Finland,2019,Total Value Added,207526000000,Europe and Central Asia
+France,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",37112000000,Europe and Central Asia
+France,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",300636000000,Europe and Central Asia
+France,2019,Manufacturing (ISIC D),243954000000,Europe and Central Asia
+France,2019,Construction (ISIC F),124114000000,Europe and Central Asia
+France,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",288865283261,Europe and Central Asia
+France,2019,"Transport, storage and communication (ISIC I)",214730788200,Europe and Central Asia
+France,2019,Other Activities (ISIC J-P),1203813000001,Europe and Central Asia
+France,2019,Total Value Added,2169271071460,Europe and Central Asia
+Germany,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",24896000000,Europe and Central Asia
+Germany,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",754225000000,Europe and Central Asia
+Germany,2019,Manufacturing (ISIC D),659182000000,Europe and Central Asia
+Germany,2019,Construction (ISIC F),166800000000,Europe and Central Asia
+Germany,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",363443000000,Europe and Central Asia
+Germany,2019,"Transport, storage and communication (ISIC I)",290572000000,Europe and Central Asia
+Germany,2019,Other Activities (ISIC J-P),1506221000000,Europe and Central Asia
+Germany,2019,Total Value Added,3106157000000,Europe and Central Asia
+Greece,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",6926178000,Europe and Central Asia
+Greece,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",21845010000,Europe and Central Asia
+Greece,2019,Manufacturing (ISIC D),14643746000,Europe and Central Asia
+Greece,2019,Construction (ISIC F),2578693000,Europe and Central Asia
+Greece,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",31532861000,Europe and Central Asia
+Greece,2019,"Transport, storage and communication (ISIC I)",16763105000,Europe and Central Asia
+Greece,2019,Other Activities (ISIC J-P),79116444000,Europe and Central Asia
+Greece,2019,Total Value Added,158762291000,Europe and Central Asia
+Honduras,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",66126100000,Latin America and Caribbean
+Honduras,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",129079000000,Latin America and Caribbean
+Honduras,2019,Manufacturing (ISIC D),100545600000,Latin America and Caribbean
+Honduras,2019,Construction (ISIC F),37420600000,Latin America and Caribbean
+Honduras,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",105220600000,Latin America and Caribbean
+Honduras,2019,"Transport, storage and communication (ISIC I)",43190700000,Latin America and Caribbean
+Honduras,2019,Other Activities (ISIC J-P),206178986219,Latin America and Caribbean
+Honduras,2019,Total Value Added,587215986219,Latin America and Caribbean
+India,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",33940325229229,South Asia
+India,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",35517469707555,South Asia
+India,2019,Manufacturing (ISIC D),27122694158168,South Asia
+India,2019,Construction (ISIC F),13686384991077,South Asia
+India,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",23236316138444,South Asia
+India,2019,"Transport, storage and communication (ISIC I)",11566083465587,South Asia
+India,2019,Other Activities (ISIC J-P),66666853031945,South Asia
+India,2019,Total Value Added,184613432563837,South Asia
+Indonesia,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",2.0127428E+15,East Asia and Pacific
+Indonesia,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",4.4653589E+15,East Asia and Pacific
+Indonesia,2019,Manufacturing (ISIC D),3.1195938E+15,East Asia and Pacific
+Indonesia,2019,Construction (ISIC F),1.7017412E+15,East Asia and Pacific
+Indonesia,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",2.50059E+15,East Asia and Pacific
+Indonesia,2019,"Transport, storage and communication (ISIC I)",1.5080801E+15,East Asia and Pacific
+Indonesia,2019,Other Activities (ISIC J-P),2.9929148E+15,East Asia and Pacific
+Indonesia,2019,Total Value Added,1.51814278E+16,East Asia and Pacific
+"Iran, Islamic Republic of",2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",3.77571184517843E+15,Middle East and North Africa
+"Iran, Islamic Republic of",2019,"Mining, Manufacturing, Utilities (ISIC C-E)",8.1414237157158E+15,Middle East and North Africa
+"Iran, Islamic Republic of",2019,Manufacturing (ISIC D),4.54831487185442E+15,Middle East and North Africa
+"Iran, Islamic Republic of",2019,Construction (ISIC F),919040450209817,Middle East and North Africa
+"Iran, Islamic Republic of",2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",3.24317611757235E+15,Middle East and North Africa
+"Iran, Islamic Republic of",2019,"Transport, storage and communication (ISIC I)",2.3228534454232E+15,Middle East and North Africa
+"Iran, Islamic Republic of",2019,Other Activities (ISIC J-P),8.35191156164304E+15,Middle East and North Africa
+"Iran, Islamic Republic of",2019,Total Value Added,2.67541171357426E+16,Europe and Central Asia
+Ireland,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",3219068823,Europe and Central Asia
+Ireland,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",119402348560,Europe and Central Asia
+Ireland,2019,Manufacturing (ISIC D),114126129014,Europe and Central Asia
+Ireland,2019,Construction (ISIC F),8415817675,Europe and Central Asia
+Ireland,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",30791598285,Europe and Central Asia
+Ireland,2019,"Transport, storage and communication (ISIC I)",58488065477,Europe and Central Asia
+Ireland,2019,Other Activities (ISIC J-P),114982731250,Europe and Central Asia
+Ireland,2019,Total Value Added,335299630069,Europe and Central Asia
+Israel,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",15294625180,Middle East and North Africa
+Israel,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",176834626813,Middle East and North Africa
+Israel,2019,Manufacturing (ISIC D),152940396547,Middle East and North Africa
+Israel,2019,Construction (ISIC F),82914808509,Middle East and North Africa
+Israel,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",159933876116,Middle East and North Africa
+Israel,2019,"Transport, storage and communication (ISIC I)",173536606840,Middle East and North Africa
+Israel,2019,Other Activities (ISIC J-P),667578290343,Middle East and North Africa
+Israel,2019,Total Value Added,1276092833802,Middle East and North Africa
+Italy,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",34254200000,Europe and Central Asia
+Italy,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",316488100000,Europe and Central Asia
+Italy,2019,Manufacturing (ISIC D),266943000000,Europe and Central Asia
+Italy,2019,Construction (ISIC F),69766800000,Europe and Central Asia
+Italy,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",261389400000,Europe and Central Asia
+Italy,2019,"Transport, storage and communication (ISIC I)",148066600000,Europe and Central Asia
+Italy,2019,Other Activities (ISIC J-P),779689800000,Europe and Central Asia
+Italy,2019,Total Value Added,1609654900000,Europe and Central Asia
+Japan,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",5652300000000,East Asia and Pacific
+Japan,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",131331600000000,East Asia and Pacific
+Japan,2019,Manufacturing (ISIC D),113974800000000,East Asia and Pacific
+Japan,2019,Construction (ISIC F),30020800000000,East Asia and Pacific
+Japan,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",84048400000000,East Asia and Pacific
+Japan,2019,"Transport, storage and communication (ISIC I)",57194500000000,East Asia and Pacific
+Japan,2019,Other Activities (ISIC J-P),247739300000000,East Asia and Pacific
+Japan,2019,Total Value Added,555986900000000,East Asia and Pacific
+Kazakhstan,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",3105560700000,Europe and Central Asia
+Kazakhstan,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",19154492500000,Europe and Central Asia
+Kazakhstan,2019,Manufacturing (ISIC D),7972864100000,Europe and Central Asia
+Kazakhstan,2019,Construction (ISIC F),3811296800000,Europe and Central Asia
+Kazakhstan,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",12581693600000,Europe and Central Asia
+Kazakhstan,2019,"Transport, storage and communication (ISIC I)",6939412500000,Europe and Central Asia
+Kazakhstan,2019,Other Activities (ISIC J-P),19089148700000,Europe and Central Asia
+Kazakhstan,2019,Total Value Added,64681604800000,Europe and Central Asia
+Kuwait,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",159000000,Middle East and North Africa
+Kuwait,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",22945100000,Middle East and North Africa
+Kuwait,2019,Manufacturing (ISIC D),2966000000,Middle East and North Africa
+Kuwait,2019,Construction (ISIC F),1194700000,Middle East and North Africa
+Kuwait,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",2083300000,Middle East and North Africa
+Kuwait,2019,"Transport, storage and communication (ISIC I)",2832600000,Middle East and North Africa
+Kuwait,2019,Other Activities (ISIC J-P),17711700000,Middle East and North Africa
+Kuwait,2019,Total Value Added,46926400000,Middle East and North Africa
+Lebanon,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",2482928731083,Middle East and North Africa
+Lebanon,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",8282159328776,Middle East and North Africa
+Lebanon,2019,Manufacturing (ISIC D),5985196690158,Middle East and North Africa
+Lebanon,2019,Construction (ISIC F),2086136246664,Middle East and North Africa
+Lebanon,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",12159651910963,Middle East and North Africa
+Lebanon,2019,"Transport, storage and communication (ISIC I)",4103899205706,Middle East and North Africa
+Lebanon,2019,Other Activities (ISIC J-P),47436826202971,Middle East and North Africa
+Lebanon,2019,Total Value Added,76551601626164,Middle East and North Africa
+Luxembourg,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",137161000,Europe and Central Asia
+Luxembourg,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",3847429000,Europe and Central Asia
+Luxembourg,2019,Manufacturing (ISIC D),3094348000,Europe and Central Asia
+Luxembourg,2019,Construction (ISIC F),3496957000,Europe and Central Asia
+Luxembourg,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",6187247000,Europe and Central Asia
+Luxembourg,2019,"Transport, storage and communication (ISIC I)",5871146000,Europe and Central Asia
+Luxembourg,2019,Other Activities (ISIC J-P),37382573000,Europe and Central Asia
+Luxembourg,2019,Total Value Added,56922513000,Europe and Central Asia
+Malaysia,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",109612675000,East Asia and Pacific
+Malaysia,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",494152857000,East Asia and Pacific
+Malaysia,2019,Manufacturing (ISIC D),323934224000,East Asia and Pacific
+Malaysia,2019,Construction (ISIC F),70867609000,East Asia and Pacific
+Malaysia,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",310402435000,East Asia and Pacific
+Malaysia,2019,"Transport, storage and communication (ISIC I)",143115662000,East Asia and Pacific
+Malaysia,2019,Other Activities (ISIC J-P),365480816000,East Asia and Pacific
+Malaysia,2019,Total Value Added,1493632054000,East Asia and Pacific
+Mali,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",3726787199815,Sub-Saharan Africa
+Mali,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",1736040396723,Sub-Saharan Africa
+Mali,2019,Manufacturing (ISIC D),1646156446177,Sub-Saharan Africa
+Mali,2019,Construction (ISIC F),435354179947,Sub-Saharan Africa
+Mali,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",1054662422751,Sub-Saharan Africa
+Mali,2019,"Transport, storage and communication (ISIC I)",482952528478,Sub-Saharan Africa
+Mali,2019,Other Activities (ISIC J-P),1958683917579,Sub-Saharan Africa
+Mali,2019,Total Value Added,9394480645293,Sub-Saharan Africa
+Mexico,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",830021407000,Latin America and Caribbean
+Mexico,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",5832936658000,Latin America and Caribbean
+Mexico,2019,Manufacturing (ISIC D),4233254526000,Latin America and Caribbean
+Mexico,2019,Construction (ISIC F),1699001191000,Latin America and Caribbean
+Mexico,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",5162772920000,Latin America and Caribbean
+Mexico,2019,"Transport, storage and communication (ISIC I)",1969965049000,Latin America and Caribbean
+Mexico,2019,Other Activities (ISIC J-P),7528896829000,Latin America and Caribbean
+Mexico,2019,Total Value Added,23023594054000,Latin America and Caribbean
+Mongolia,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",4026562814166,East Asia and Pacific
+Mongolia,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",12924680042041,East Asia and Pacific
+Mongolia,2019,Manufacturing (ISIC D),3508468446800,East Asia and Pacific
+Mongolia,2019,Construction (ISIC F),1411043356380,East Asia and Pacific
+Mongolia,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",3946566265032,East Asia and Pacific
+Mongolia,2019,"Transport, storage and communication (ISIC I)",2381156140029,East Asia and Pacific
+Mongolia,2019,Other Activities (ISIC J-P),8578189089866,East Asia and Pacific
+Mongolia,2019,Total Value Added,33268197707515,East Asia and Pacific
+Netherlands,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",13300000000,Europe and Central Asia
+Netherlands,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",106790000000,Europe and Central Asia
+Netherlands,2019,Manufacturing (ISIC D),87602000000,Europe and Central Asia
+Netherlands,2019,Construction (ISIC F),36001000000,Europe and Central Asia
+Netherlands,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",117078000000,Europe and Central Asia
+Netherlands,2019,"Transport, storage and communication (ISIC I)",71417000000,Europe and Central Asia
+Netherlands,2019,Other Activities (ISIC J-P),380374000000,Europe and Central Asia
+Netherlands,2019,Total Value Added,724960000000,Europe and Central Asia
+New Zealand,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",18315000000,East Asia and Pacific
+New Zealand,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",43581000000,East Asia and Pacific
+New Zealand,2019,Manufacturing (ISIC D),31847000000,East Asia and Pacific
+New Zealand,2019,Construction (ISIC F),22499000000,East Asia and Pacific
+New Zealand,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",35714000000,East Asia and Pacific
+New Zealand,2019,"Transport, storage and communication (ISIC I)",20963000000,East Asia and Pacific
+New Zealand,2019,Other Activities (ISIC J-P),155758000000,East Asia and Pacific
+New Zealand,2019,Total Value Added,296830000000,East Asia and Pacific
+Nigeria,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",31904140862671,Sub-Saharan Africa
+Nigeria,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",30882796118434,Sub-Saharan Africa
+Nigeria,2019,Manufacturing (ISIC D),16781064043959,Sub-Saharan Africa
+Nigeria,2019,Construction (ISIC F),8996895177897,Sub-Saharan Africa
+Nigeria,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",23907966852713,Sub-Saharan Africa
+Nigeria,2019,"Transport, storage and communication (ISIC I)",18455361783195,Sub-Saharan Africa
+Nigeria,2019,Other Activities (ISIC J-P),30063331272097,Sub-Saharan Africa
+Nigeria,2019,Total Value Added,144210492067008,Sub-Saharan Africa
+Pakistan,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",8369637205232,East Asia and Pacific
+Pakistan,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",6229570583617,East Asia and Pacific
+Pakistan,2019,Manufacturing (ISIC D),4730233615787,East Asia and Pacific
+Pakistan,2019,Construction (ISIC F),734085186940,East Asia and Pacific
+Pakistan,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",6803762742641,East Asia and Pacific
+Pakistan,2019,"Transport, storage and communication (ISIC I)",4107248548712,East Asia and Pacific
+Pakistan,2019,Other Activities (ISIC J-P),9538976498523,East Asia and Pacific
+Pakistan,2019,Total Value Added,35783280765665,East Asia and Pacific
+Portugal,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",4477318000,Europe and Central Asia
+Portugal,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",32285425000,Europe and Central Asia
+Portugal,2019,Manufacturing (ISIC D),25500495000,Europe and Central Asia
+Portugal,2019,Construction (ISIC F),8087155000,Europe and Central Asia
+Portugal,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",35619252000,Europe and Central Asia
+Portugal,2019,"Transport, storage and communication (ISIC I)",16549524000,Europe and Central Asia
+Portugal,2019,Other Activities (ISIC J-P),88517603000,Europe and Central Asia
+Portugal,2019,Total Value Added,185536277000,Middle East and North Africa
+Qatar,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",1472375142,Middle East and North Africa
+Qatar,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",285931831129,Middle East and North Africa
+Qatar,2019,Manufacturing (ISIC D),49881522839,Middle East and North Africa
+Qatar,2019,Construction (ISIC F),78173834389,Middle East and North Africa
+Qatar,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",55838084151,Middle East and North Africa
+Qatar,2019,"Transport, storage and communication (ISIC I)",37252950246,Middle East and North Africa
+Qatar,2019,Other Activities (ISIC J-P),206010565515,Middle East and North Africa
+Qatar,2019,Total Value Added,664679640573,Middle East and North Africa
+Republic of Korea,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",32099300000000,East Asia and Pacific
+Republic of Korea,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",524054400000000,East Asia and Pacific
+Republic of Korea,2019,Manufacturing (ISIC D),485401200000000,East Asia and Pacific
+Republic of Korea,2019,Construction (ISIC F),104855200000000,East Asia and Pacific
+Republic of Korea,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",184603800000000,East Asia and Pacific
+Republic of Korea,2019,"Transport, storage and communication (ISIC I)",143729300000000,East Asia and Pacific
+Republic of Korea,2019,Other Activities (ISIC J-P),773291000000000,East Asia and Pacific
+Republic of Korea,2019,Total Value Added,1.762633E+15,East Asia and Pacific
+Russian Federation,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",3818610602020,Europe and Central Asia
+Russian Federation,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",27659811010799,Europe and Central Asia
+Russian Federation,2019,Manufacturing (ISIC D),14392065603027,Europe and Central Asia
+Russian Federation,2019,Construction (ISIC F),7771301950447,Europe and Central Asia
+Russian Federation,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",16260207432478,Europe and Central Asia
+Russian Federation,2019,"Transport, storage and communication (ISIC I)",7280521501159,Europe and Central Asia
+Russian Federation,2019,Other Activities (ISIC J-P),35475233832408,Europe and Central Asia
+Russian Federation,2019,Total Value Added,98265686329311,Europe and Central Asia
+Saudi Arabia,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",66411063140,Middle East and North Africa
+Saudi Arabia,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",1246773334057,Middle East and North Africa
+Saudi Arabia,2019,Manufacturing (ISIC D),372893448496,Middle East and North Africa
+Saudi Arabia,2019,Construction (ISIC F),163655153571,Middle East and North Africa
+Saudi Arabia,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",298008689200,Middle East and North Africa
+Saudi Arabia,2019,"Transport, storage and communication (ISIC I)",182071045329,Middle East and North Africa
+Saudi Arabia,2019,Other Activities (ISIC J-P),1019848747346,Middle East and North Africa
+Saudi Arabia,2019,Total Value Added,2976768032643,Middle East and North Africa
+Singapore,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",165400000,East Asia and Pacific
+Singapore,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",105155800000,East Asia and Pacific
+Singapore,2019,Manufacturing (ISIC D),99360700000,East Asia and Pacific
+Singapore,2019,Construction (ISIC F),18486400000,East Asia and Pacific
+Singapore,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",96219700000,East Asia and Pacific
+Singapore,2019,"Transport, storage and communication (ISIC I)",54007900000,East Asia and Pacific
+Singapore,2019,Other Activities (ISIC J-P),210727400000,East Asia and Pacific
+Singapore,2019,Total Value Added,484762600000,East Asia and Pacific
+South Africa,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",95690000000,Sub-Saharan Africa
+South Africa,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",1147924710871,Sub-Saharan Africa
+South Africa,2019,Manufacturing (ISIC D),598171339572,Sub-Saharan Africa
+South Africa,2019,Construction (ISIC F),172217616455,Sub-Saharan Africa
+South Africa,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",685262820574,Sub-Saharan Africa
+South Africa,2019,"Transport, storage and communication (ISIC I)",442073947789,Sub-Saharan Africa
+South Africa,2019,Other Activities (ISIC J-P),1980410796316,Sub-Saharan Africa
+South Africa,2019,Total Value Added,4523579892005,Sub-Saharan Africa
+Spain,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",32287000000,Europe and Central Asia
+Spain,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",179996000000,Europe and Central Asia
+Spain,2019,Manufacturing (ISIC D),136261000000,Europe and Central Asia
+Spain,2019,Construction (ISIC F),70715000000,Europe and Central Asia
+Spain,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",215025979817,Europe and Central Asia
+Spain,2019,"Transport, storage and communication (ISIC I)",93673020183,Europe and Central Asia
+Spain,2019,Other Activities (ISIC J-P),536784000000,Europe and Central Asia
+Spain,2019,Total Value Added,1128481000000,Europe and Central Asia
+Turkey,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",276371822000,Europe and Central Asia
+Turkey,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",942677395000,Europe and Central Asia
+Turkey,2019,Manufacturing (ISIC D),789333607000,Europe and Central Asia
+Turkey,2019,Construction (ISIC F),233312981000,Europe and Central Asia
+Turkey,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",683163209000,Europe and Central Asia
+Turkey,2019,"Transport, storage and communication (ISIC I)",482228321000,Europe and Central Asia
+Turkey,2019,Other Activities (ISIC J-P),1270170308000,Europe and Central Asia
+Turkey,2019,Total Value Added,3887924036000,Europe and Central Asia
+Turkmenistan,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",17084000000,Europe and Central Asia
+Turkmenistan,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",55381574746,Europe and Central Asia
+Turkmenistan,2019,Manufacturing (ISIC D),52196390035,Europe and Central Asia
+Turkmenistan,2019,Construction (ISIC F),11140425254,Europe and Central Asia
+Turkmenistan,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",7790111909,Europe and Central Asia
+Turkmenistan,2019,"Transport, storage and communication (ISIC I)",11902388781,Europe and Central Asia
+Turkmenistan,2019,Other Activities (ISIC J-P),46578752234,Europe and Central Asia
+Turkmenistan,2019,Total Value Added,149877252924,Europe and Central Asia
+United Arab Emirates,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",11448434473,Middle East and North Africa
+United Arab Emirates,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",543829922260,Middle East and North Africa
+United Arab Emirates,2019,Manufacturing (ISIC D),134639002042,Middle East and North Africa
+United Arab Emirates,2019,Construction (ISIC F),137391787376,Middle East and North Africa
+United Arab Emirates,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",234957227486,Middle East and North Africa
+United Arab Emirates,2019,"Transport, storage and communication (ISIC I)",135791916089,Middle East and North Africa
+United Arab Emirates,2019,Other Activities (ISIC J-P),468804854629,Middle East and North Africa
+United Arab Emirates,2019,Total Value Added,1532224142313,Middle East and North Africa
+United Kingdom of Great Britain and Northern Ireland,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",13802000000,Europe and Central Asia
+United Kingdom of Great Britain and Northern Ireland,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",276394000000,Europe and Central Asia
+United Kingdom of Great Britain and Northern Ireland,2019,Manufacturing (ISIC D),200263000000,Europe and Central Asia
+United Kingdom of Great Britain and Northern Ireland,2019,Construction (ISIC F),129134000000,Europe and Central Asia
+United Kingdom of Great Britain and Northern Ireland,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",270136000000,Europe and Central Asia
+United Kingdom of Great Britain and Northern Ireland,2019,"Transport, storage and communication (ISIC I)",205657000000,Europe and Central Asia
+United Kingdom of Great Britain and Northern Ireland,2019,Other Activities (ISIC J-P),1122221000000,Europe and Central Asia
+United Kingdom of Great Britain and Northern Ireland,2019,Total Value Added,2017344000000,Europe and Central Asia
+United States,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",162600000000,North America
+United States,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",3059400000000,North America
+United States,2019,Manufacturing (ISIC D),2370900000000,North America
+United States,2019,Construction (ISIC F),903600000000,North America
+United States,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",3114900000000,North America
+United States,2019,"Transport, storage and communication (ISIC I)",2252700000000,North America
+United States,2019,Other Activities (ISIC J-P),11879300000000,North America
+United States,2019,Total Value Added,21372500000000,North America
+Zimbabwe,2019,"Agriculture, hunting, forestry, fishing (ISIC A-B)",1792800913,Sub-Saharan Africa
+Zimbabwe,2019,"Mining, Manufacturing, Utilities (ISIC C-E)",4200009663,Sub-Saharan Africa
+Zimbabwe,2019,Manufacturing (ISIC D),2427825131,Sub-Saharan Africa
+Zimbabwe,2019,Construction (ISIC F),491388567,Sub-Saharan Africa
+Zimbabwe,2019,"Wholesale, retail trade, restaurants and hotels (ISIC G-H)",4451542520,Sub-Saharan Africa
+Zimbabwe,2019,"Transport, storage and communication (ISIC I)",2254697878,Sub-Saharan Africa
+Zimbabwe,2019,Other Activities (ISIC J-P),6621578327,Sub-Saharan Africa
+Zimbabwe,2019,Total Value Added,19812017867,Sub-Saharan Africa
