@@ -17,7 +17,7 @@
 
     
  "height": 370,
- "width": 180,
+ "width": 170,
 
 "mark": {"type": "bar"},
 
@@ -64,9 +64,7 @@
   },
 
   "color": {"field": "Item", "scale": {"range": ["#0063af","#122b39","#36b7b4","#5c267b","#f4c245","#00a767","#e6224b"]}, "title": "Sector:",
-   "legend": {"labelExpr": "{'United Kingdom of Great Britain and Northern Ireland': 'United Kingdom', 'Agriculture, hunting, forestry, fishing (ISIC A-B)': 'Agriculture, hunting, forestry',
-'Mining, Manufacturing, Utilities (ISIC C-E)':'Mining, manufacturing, utilities','Manufacturing (ISIC D)':'Manufacturing','Construction (ISIC F)':'Cunstruction','Wholesale, retail trade, restaurants and hotels (ISIC G-H)':'Retail, wholesale, hospitality',
-'Transport, storage and communication (ISIC I)':'Transport, storage','Other Activities (ISIC J-P)':'Other activities'}[datum.label]"}},
+   "legend": {"labelExpr": "{'United Kingdom of Great Britain and Northern Ireland': 'United Kingdom', 'Agriculture, hunting, forestry, fishing (ISIC A-B)': 'Agriculture, hunting, forestry','Mining, Manufacturing, Utilities (ISIC C-E)':'Mining, manufacturing, utilities','Manufacturing (ISIC D)':'Manufacturing','Construction (ISIC F)':'Cunstruction','Wholesale, retail trade, restaurants and hotels (ISIC G-H)':'Retail, wholesale, hospitality','Transport, storage and communication (ISIC I)':'Transport, storage','Other Activities (ISIC J-P)':'Other activities'}[datum.label]"}},
 
 
    "tooltip": [
