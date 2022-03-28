@@ -5,6 +5,7 @@
   "title": {
     "text": "GDP Composition by Sector",
     "subtitle": "Current USD; Year: 2020; Source: The World Bank, World Development Indicators",
+    "fontSize": 11,
     "subtitleFontSize": 10,
     "subtitleFontStyle":"italic"
   },
@@ -16,7 +17,7 @@
 
     
  "height": 350,
- "width": 180,
+ "width": 150,
 
 "mark": {"type": "bar"},
 
@@ -61,7 +62,7 @@
     "title": "Share of GDP"
   },
 
-  "color": {"field": "Sector", "scale": {"range": ["#179fdb", "#00a767", "#f4c245", "#e6224b"]}, "title": "Sector (% of GDP)"},
+  "color": {"field": "Sector", "scale": {"range": ["#179fdb", "#00a767", "#f4c245", "#e6224b"]}, "title": "Sector (% of GDP):"},
 
 
    "tooltip": [
@@ -70,3 +71,4 @@
       {"field": "GDP (billion USD)", "type": "quantitative", "title": "GDP (billion USD)", "format": ".2f"}]
   }
 }
+
