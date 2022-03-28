@@ -1,0 +1,75 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "Sectoral Gross Value Added (GVA)",
+  "title": {
+    "text": "Sectoral Gross Value Added (GVA)",
+    "subtitle": "Year: 2019; Source: UN Data",
+    "fontSize": 11,
+    "subtitleFontSize": 10,
+    "subtitleFontStyle":"italic"
+  },
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/observatory/GVA.csv",
+    "format": {"type": "csv"}
+  },
+
+    
+ "height": 350,
+ "width": 200,
+
+"mark": {"type": "bar"},
+
+"selection": {
+    "Region": {
+      "type": "single",
+      "fields": ["Region"],
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Europe and Central Asia",
+          "South Asia",
+          "Middle East and North Africa",
+          "East Asia and Pacific",
+          "Sub-Saharan Africa",
+          "Latin America and Caribbean",
+          "North America"
+        ],
+        "name": "Region"
+      }
+    }
+  },
+
+
+"transform": [
+{"calculate": "datum.Value/1000000000", "as": "Sector GVA (billion USD)"},
+{"calculate": "datum.GVA/1000000000", "as": "Total GVA (billion USD)"},
+{"filter": {"selection": "Region"}}],
+
+  "encoding": {
+  "y": {
+      "field": "Country or Area", 
+      "type": "nominal", 
+      "title": "",
+      "axis": {"labelAngle": 0,"labelFontSize": 9}},
+
+
+  "x": {
+    "field": "Sector GVA (billion USD)",
+    "type": "quantitative",
+    "title": "",
+    "stack": "normalize"
+  },
+
+  "color": {"field": "Item", "scale": {"range": ["#0063af","#122b39","#36b7b4","#5c267b","#f4c245","#00a767","#e6224b"]}, "title": "Sector:",
+   "legend": {"labelExpr": "{'United Kingdom of Great Britain and Northern Ireland': 'United Kingdom', 'Agriculture, hunting, forestry, fishing (ISIC A-B)': 'Agriculture, hunting, forestry, fishing','Mining, Manufacturing, Utilities (ISIC C-E)':'Mining, manufacturing, utilities','Manufacturing (ISIC D)':'Manufacturing','Construction (ISIC F)':'Cunstruction','Wholesale, retail trade, restaurants and hotels (ISIC G-H)':'Retail, wholesale, hospitality','Transport, storage and communication (ISIC I)':'Transport, storage, communication','Other Activities (ISIC J-P)':'Other activities'}[datum.label]"}},
+
+
+   "tooltip": [
+      {"field": "Country or Area", "type": "nominal", "title": "Country"},
+      {"field": "Sector GVA (billion USD)", "type": "quantitative", "title": "Sector GVA (billion USD)", "format": ".2f"},
+      {"field": "Total GVA (billion USD)", "type": "quantitative", "title": "Total GVA (billion USD)", "format": ".2f"}]
+  }
+}
