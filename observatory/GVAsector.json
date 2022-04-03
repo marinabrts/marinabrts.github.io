@@ -6,9 +6,17 @@
     "text": "Sectoral Gross Value Added (GVA)",
     "subtitle": "Year: 2019; Source: UN Data",
     "fontSize": 11,
+    "color": "white",
+    "subtitleColor": "white",
     "subtitleFontSize": 10,
-    "subtitleFontStyle":"italic"
-  },
+    "subtitleFontStyle":"italic"},
+    "config": {
+    "axis": {
+      "labelColor": "white"
+    },
+    "legend": {"labelColor": "white"}},
+
+  "background": "black",
 
   "data": {
     "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/observatory/GVA.csv",
@@ -73,3 +81,4 @@
       {"field": "Total GVA (billion USD)", "type": "quantitative", "title": "Total GVA (billion USD)", "format": ".2f"}]
   }
 }
+
