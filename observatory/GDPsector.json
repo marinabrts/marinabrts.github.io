@@ -7,8 +7,16 @@
     "subtitle": "Current USD; Year: 2020; Source: The World Bank, World Development Indicators",
     "fontSize": 11,
     "subtitleFontSize": 10,
-    "subtitleFontStyle":"italic"
-  },
+    "color": "white",
+    "subtitleColor": "white",
+    "subtitleFontStyle":"italic"},
+    "config": {
+    "axis": {
+      "labelColor": "white"
+    },
+    "legend": {"labelColor": "white"}},
+
+  "background": "black",
 
   "data": {
     "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/observatory/sectoral_GDP.csv",
@@ -62,6 +70,8 @@
     "title": "Share of GDP"
   },
 
+  
+
   "color": {"field": "Sector", "scale": {"range": ["#179fdb", "#00a767", "#f4c245", "#e6224b"]}, "title": "Sector (% of GDP):"},
 
 
@@ -71,4 +81,3 @@
       {"field": "GDP (billion USD)", "type": "quantitative", "title": "GDP (billion USD)", "format": ".2f"}]
   }
 }
-
