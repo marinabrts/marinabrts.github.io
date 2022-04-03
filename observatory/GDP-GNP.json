@@ -1,21 +1,30 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "description": "GDP Around the World (in billion USD)",
+  "description": "GDP and GNP Around the World (in billion USD)",
   "title": {
-    "text": "GDP and GNP Around the World (in billion USD)",
-    "subtitle": "Year: 2020; Source: The World Bank, World Development Indicators",
+    "text": "GDP and GNP (in billion USD)",
+    "subtitle": "Current USD; Year: 2020; Source: The World Bank, World Development Indicators",
+    "color": "white",
+    "subtitleColor": "white",
     "subtitleFontSize": 10,
     "subtitleFontStyle":"italic"
-  },
+  }, 
+  "config": {
+    "axis": {
+      "labelColor": "white",
+      "titleColor": "white"
+    },
+    "legend": {"labelColor": "white" }},
+
+  "background": "black",
 
   "data": {
     "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/observatory/GDP-GNP.csv",
     "format": {"type": "csv"}
   },
-    
- "height": 500,
- "width": 400,
+"height": 450,
+"width": 250,
 
 "selection": {
     "Region": {
@@ -40,20 +49,19 @@
 
     "transform": [
     {"calculate": "datum.gdp/1000000000", "as": "GDP"},
-    {"calculate": "datum.gnp/1000000000", "as": "GNP"},
-    {"filter": {"selection": "Region"}}],
+    {"calculate": "datum.gnp/1000000000", "as": "GNP"}],
 
  "repeat": {"layer": ["GDP", "GNP"]},
   "spec": {
     "mark": "bar",
     "encoding": {
-      "y": {"field": "Country Name", "type": "nominal"},
+      "y": {"field": "Country Name", "type": "nominal", "title": ""},
       "x": {
         "field": {"repeat": "layer"},
         "type": "quantitative",
         "title": "Billion USD"
       },
-      "color": {"datum": {"repeat": "layer"}, "title": ""},
+      "color": {"datum": {"repeat": "layer"}, "title": "", "scale": {"range": ["#179fdb", "#f4c245"]}},
       "yOffset": {"datum": {"repeat": "layer"}},
 
       "tooltip": [
