@@ -3,7 +3,7 @@
 
   "description": "GDP Around the World (in billion USD)",
   "title": {
-    "text": "GDP Around the World (in billion USD)",
+    "text": "GDP and GNP Around the World (in billion USD)",
     "subtitle": "Year: 2020; Source: The World Bank, World Development Indicators",
     "subtitleFontSize": 10,
     "subtitleFontStyle":"italic"
