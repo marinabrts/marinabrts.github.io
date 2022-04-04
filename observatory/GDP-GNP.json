@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "description": "GDP and GNP Around the World (in billion USD)",
+  "description": "GDP Around the World (in billion USD)",
   "title": {
     "text": "GDP and GNP (in billion USD)",
     "subtitle": "Current USD; Year: 2020; Source: The World Bank, World Development Indicators",
