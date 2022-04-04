@@ -53,7 +53,7 @@
 
  "repeat": {"layer": ["GDP", "GNP"]},
   "spec": {
-    "mark": "bar",
+  "mark": {"type":"bar","size":3.3},
     "encoding": {
       "y": {"field": "Country Name", "type": "nominal", "title": ""},
       "x": {
