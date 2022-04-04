@@ -23,7 +23,7 @@
     "url": "https://raw.githubusercontent.com/marinabrts/marinabrts.github.io/main/observatory/GDP-GNP.csv",
     "format": {"type": "csv"}
   },
-"height": 450,
+"height": 400,
 "width": 250,
 
 "selection": {
