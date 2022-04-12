@@ -12,7 +12,7 @@
   },
   "config": {
     "axis": {"labelColor": "white", "titleColor": "white"},
-    "legend": {"labelColor": "white"}
+    "legend": {"labelColor": "white", "orient": "bottom"}
   },
   "background": "black",
   "data": {
